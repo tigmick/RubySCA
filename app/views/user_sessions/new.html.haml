@@ -1,0 +1,32 @@
+- title 'Log in'
+- noindex true
+
+.wrapper.-tiny{role: 'layout'}
+  %header.page-header
+    %h2.h.-h4.-centered
+      Sign in to access the digital archive, respond to articles, manage your details.
+
+  = form_tag user_sessions_path, method: :post do
+    .block.-form.-b.-p2.-bg-faint
+      .field
+        = label_tag :email_address
+        = email_field_tag :email_address, nil, placeholder: 'sean@example.ie'
+
+      .field
+        = label_tag :password
+        = password_field_tag :password, nil, placeholder: 'password123'
+
+      %nav.block.-mt2.actions
+        = submit_tag "Log in", class: 'button -standard -big'
+
+        - if @failure
+          .block.-mt2
+            .p.-centered.-t5.c.-red This email address or password is incorrect.
+
+  .block.-my4.-py4
+    .p.-t4.-sf.-centered
+      %h3.c.-w8 Other options
+      %ul
+        %li= link_to "Don't have an account? Sign up", :register
+        %li= link_to "Forgot your password? Reset it", [:new, :password_reset]
+        %li= link_to "Had an account before 2018? Migrate it", '/migrate'

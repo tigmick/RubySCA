@@ -1,0 +1,36 @@
+.wrapper.-small{role: 'layout'}
+  %header.page-header
+    %h1.h.-h2 Change account details
+
+  = form_for @user do |f|
+    .block.-form.-b.-p2.-bg-faint
+      .field
+        .twofer
+          .field
+            = f.label :given_name, 'First name'
+            = f.text_field :given_name
+          .field
+            = f.label :surname, 'Surname'
+            = f.text_field :surname
+
+      .field
+        = f.label :email_address
+        = f.email_field :email_address, placeholder: 'aoife@example.ie'
+        - if @user.errors[:email_address].any?
+          .error Email address #{ @user.errors[:email_address].first }.
+
+      .field
+        = f.label :nickname, 'Nickname for comments'
+        = f.text_field :nickname
+        - if @user.errors[:nickname].any?
+          .error Nickname #{ @user.errors[:nickname].first }.
+        - else
+          .hint This will be displayed publicly when you comment on articles.
+
+      %nav.block.-mt2.actions
+        = f.submit 'Save changes', class: 'button -standard -big'
+
+  .block.-my4.-py4
+    .p.-t4.-sf.-centered
+      %ul
+        %li= link_to raw("&larr; Go back without saving changes"), :user

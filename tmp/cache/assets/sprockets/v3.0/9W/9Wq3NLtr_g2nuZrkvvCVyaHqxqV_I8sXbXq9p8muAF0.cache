@@ -1,0 +1,132 @@
+I"b(function() {
+  var setupStripePaymentForm;
+
+  setupStripePaymentForm = function(form) {
+    var cardCvc, cardExpiry, cardNumber, classes, elements, registerElements, styles;
+    registerElements = function(elements, form) {
+      var disableInputsAndButton, enableInputsAndButton, errorEl, errorMessageEl, formButton, toggleInputDisalbed;
+      formButton = $(':submit', form);
+      errorEl = $('.error:first', form);
+      errorMessageEl = $('.message:first', errorEl);
+      enableInputsAndButton = function() {
+        toggleInputDisalbed(false);
+        return formButton.prop('disabled', false);
+      };
+      disableInputsAndButton = function() {
+        toggleInputDisalbed(true);
+        return formButton.prop('disabled', true);
+      };
+      toggleInputDisalbed = function(disabled) {
+        return elements.forEach(function(element) {
+          return element.update({
+            disabled: disabled
+          });
+        });
+      };
+      elements.forEach(function(element) {
+        return element.on('change', function(event) {
+          if (event.error) {
+            errorEl[0].classList.add('visible');
+            return errorMessageEl.text(event.error.message);
+          } else {
+            return errorEl[0].classList.remove('visible');
+          }
+        });
+      });
+      return form.on('submit', function(e) {
+        e.preventDefault();
+        form.addClass('submitting');
+        disableInputsAndButton();
+        debugger;
+        return stripe.createToken(elements[0], {}).then(function(result) {
+          var hiddenInput;
+          form.removeClass('submitting');
+          if (result.token) {
+            hiddenInput = document.createElement('input');
+            hiddenInput.setAttribute('type', 'hidden');
+            hiddenInput.setAttribute('name', 'stripe_token');
+            hiddenInput.setAttribute('value', result.token.id);
+            form[0].appendChild(hiddenInput);
+            form.off('submit');
+            form.submit();
+            return form.addClass('submitted');
+          } else {
+            return enableInputsAndButton();
+          }
+        });
+      });
+    };
+    elements = stripe.elements({
+      fonts: [
+        {
+          family: 'Zirkon',
+          src: 'url(https://d1trxack2ykyus.cloudfront.net/fonts/GT-Zirkon-Light.woff2)',
+          style: 'normal',
+          weight: '400'
+        }
+      ]
+    });
+    styles = {
+      base: {
+        color: '#070707',
+        fontWeight: '400',
+        fontFamily: '"Zirkon", sans-serif',
+        fontSize: '17.5px',
+        fontSmoothing: 'optimizeLegibility',
+        ':focus': {
+          color: '#000'
+        },
+        '::placeholder': {
+          color: '#999'
+        },
+        ':focus::placeholder': {
+          color: '#DDD'
+        }
+      },
+      invalid: {
+        color: '#FC4604',
+        ':focus': {
+          color: '#070707'
+        },
+        '::placeholder': {
+          color: '#FED1C0'
+        }
+      }
+    };
+    classes = {
+      focus: '-focus',
+      empty: '-empty',
+      invalid: '-invalid'
+    };
+    cardNumber = elements.create('cardNumber', {
+      style: styles,
+      classes: classes
+    });
+    cardNumber.mount('#stripe-form_card-number');
+    cardExpiry = elements.create('cardExpiry', {
+      style: styles,
+      classes: classes
+    });
+    cardExpiry.mount('#stripe-form_card-expiry');
+    cardCvc = elements.create('cardCvc', {
+      style: styles,
+      classes: classes
+    });
+    cardCvc.mount('#stripe-form_card-cvc');
+    return registerElements([cardNumber, cardExpiry, cardCvc], form);
+  };
+
+  $(document).on('ready turbolinks:load', function() {
+    'use strict';
+    var i, len, ref, results, subscriptionForm;
+    ref = $('.subscription-form');
+    results = [];
+    for (i = 0, len = ref.length; i < len; i++) {
+      subscriptionForm = ref[i];
+      results.push(setupStripePaymentForm($(subscriptionForm)));
+    }
+    return results;
+  });
+
+}).call(this);
+:ET

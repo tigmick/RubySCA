@@ -1,0 +1,46 @@
+- title 'Register'
+- noindex true
+
+.wrapper.-tiny{role: 'layout'}
+  %header.page-header
+    %h2.h.-h4.-centered
+      Sign up for a free account and get an extra free article each month
+
+  = form_for @user do |f|
+    .block.-form.-b.-p2.-bg-faint
+      .field
+        .twofer
+          .field
+            = f.label :given_name, 'First name'
+            = f.text_field :given_name
+            = render_errors_for(@user, :given_name)
+          .field
+            = f.label :surname, 'Surname'
+            = f.text_field :surname
+            = render_errors_for(@user, :surname)
+
+      .field
+        = f.label :email_address
+        = f.email_field :email_address, placeholder: 'sean@example.ie'
+        = render_errors_for(@user, :email_address)
+
+      .field
+        = f.label :password
+        = f.password_field :password, placeholder: 'password123'
+        = render_errors_for(@user, :password)
+
+      .field.-check
+        = f.label :subscribed_weekly do
+          = f.check_box :subscribed_weekly
+          Get our free weekly email newsletter?
+        = render_errors_for(@user, :subscribed_weekly)
+
+      %nav.block.-mt2.actions
+        = f.submit 'Register', class: 'button -standard -big'
+
+  .block.-my4.-py4
+    .p.-t4.-sf.-centered
+      %h3.c.-w8 Other options
+      %ul
+        %li= link_to "Log in to an existing account", :login
+        %li= link_to "Had an account before 2018? Migrate it", '/migrate'

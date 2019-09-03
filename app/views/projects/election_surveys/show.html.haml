@@ -1,0 +1,32 @@
+- set_meta_tags title: "Citizens' Agenda: 2019 local elections" 
+- set_meta_tags description: "Read what candidates in the 2019 local elections say they will do to address the issues our readers asked about"
+
+- cache [@survey,"show"] do
+  .block.-bg-blue.-py4
+    .wrapper.-container{role: 'layout'}
+      .wrapper.-large{role: 'layout'}
+        .block.-py4
+          .row
+            .col-xs-12.col-md-9
+              .block.-pt4
+                %h1.h.-h1.-left
+                  :markdown
+                    What do the candidates for city council have to say about the issues that matter to you?
+                  
+                .block.-mt2
+                  .p.-t3
+                    :markdown
+                      We asked our readers what they want candidates in the 2019 local elections to discuss as they compete for votes, and then posed those questions to the candidates. These are their responses.
+
+          .row
+            .col-xs-12.col-md-5
+              .block.-mt4
+                .area-switcher.-cta
+                  %label select an electoral area
+                  %select{'data-behaviour': 'switchView', 'data-path': area_projects_election_survey_path(id: @survey.slug, area_id: '')}
+                    %option Choose your electoral area
+                    <option disabled>──────────</option>
+                    - @areas.each do |area|
+                      %option{value: area.slug}= area.name
+
+  = render partial: 'projects/election_surveys/footer'

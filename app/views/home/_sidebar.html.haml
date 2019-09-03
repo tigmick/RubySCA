@@ -1,0 +1,50 @@
+.content
+  - if logged_in? and current_user.lapsed?
+    %section.block.-py2.-px1.-mb2.-bg-blue
+      %h4.c.-w8 Special offer for past subscribers
+
+      .block.-my1
+        :markdown
+          Resubscribe to Dublin Inquirer and get your first month free.
+
+      .block.-mt2= link_to "Subscribe", '/resubscribe-offer-2018', class: 'button -white'
+
+  - elsif !logged_in? or !current_user.subscriber?
+    %section.block.-py2.-px1.-mb2.-bg-blue
+      %h4.c.-w8 Support local journalism
+
+      .block.-my1
+        :markdown
+          Dublin Inquirer is funded by its readers, not advertisers.
+
+      .block.-mt2= link_to "Subscribe", :products, class: 'button -white'
+  - else
+    .block.-bg-faint.-b.-py2.-px1.-mb2
+      .p.-t5
+        %h3.c.-w8 Give a subscription
+        .block.-mt1
+          :markdown
+            The perfect gift for the inquisitive Dubliner in your life.
+
+        %nav.block.-mt2
+          #{ link_to "See options", :gift_subscriptions, class: 'button -standard p -t5' }
+
+  %section.block.-mb2
+    .block.-pb1.-bb
+      %h4.c.-w8= link_to 'The Podcast', category_path('podcast'), class: 'a -elsewhere'
+
+    .block.-mt1
+      = render partial: 'recent_podcasts'
+
+  %section.block
+    .block.-pb1.-bb
+      %h4.c.-w8= link_to 'Council Tracker', 'https://www.counciltracker.ie', class: 'a -elsewhere'
+
+    .block.-mt1
+      %ol.list.-delineated
+        - @recent_motions.each do |motion|
+          %li
+            = link_to "https://www.counciltracker.ie/motions/#{ motion['hashed_id'] }" do
+              = truncate(motion['title'], length: 34)
+              %em.c.-grey
+                &ndash; #{ motion['result'] }ed

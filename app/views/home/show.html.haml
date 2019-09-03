@@ -1,0 +1,40 @@
+- title 'Local, independent, different'
+- description "Independent and original local journalism for Ireland's capital."
+
+- set_meta_tags image_src: 'https://d1trxack2ykyus.cloudfront.net/25439908_1555010937919816_8873633341112035018_o.jpg'
+- set_meta_tags og: {image:  'https://d1trxack2ykyus.cloudfront.net/25439908_1555010937919816_8873633341112035018_o.jpg'}
+- set_meta_tags twitter: {image: {'_':  'https://d1trxack2ykyus.cloudfront.net/25439908_1555010937919816_8873633341112035018_o.jpg'}}
+
+- cache ['home', (logged_in? ? current_user.id.to_s : 'logged_out' ), @articles] do
+  .block.-pb2.sub-semipresent
+    .wrapper.-contained{role: 'layout'}
+      .fixed{role: 'layout'}
+        %main
+          .row
+            - if @articles.any?
+              .col-xs-12.col-md-8.flex
+                - @articles.first(1).each do |article|
+                  = render partial: 'articles/excerpts/half', locals: {article: article}
+                %hr.-stroke
+              .col-xs-12.col-md-4.flex
+                .block
+                  - @articles.first(2).drop(1).each do |article|
+                    = render partial: 'articles/excerpts/small', locals: {article: article}
+                  %hr.-stroke
+                  = render partial: 'home/tiny-box', locals: {articles: @articles}
+          .row
+            - if @articles.any?
+              - cache ['home', 'secondary', @articles] do
+                - @articles.drop(2).each do |article|
+                  .col-xs-12.col-md-6.flex
+                    = render partial: 'articles/excerpts/half', locals: {article: article}
+                    %hr.-stroke
+                
+                - if @cover
+                  .col-xs-12.col-md-6
+                    = render partial: 'articles/excerpts/cover', locals: {article: @cover}
+
+        %aside.sidebar
+          = render partial: 'home/sidebar'
+
+= render partial: 'products/enticement'

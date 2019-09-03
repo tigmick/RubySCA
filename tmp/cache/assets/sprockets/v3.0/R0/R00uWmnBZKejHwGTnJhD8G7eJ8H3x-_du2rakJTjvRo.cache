@@ -1,0 +1,28 @@
+I"k(function() {
+  $(document).on('ready turbolinks:load', function() {
+    'use strict';
+    $('[data-action="openOverlay"]').on('click', function(e) {
+      var overlayEl;
+      overlayEl = $('#' + $(e.currentTarget).data('target'));
+      overlayEl.show();
+      return setTimeout(function() {
+        $('body').addClass('-overlay-open');
+        overlayEl.addClass('-open');
+        e.preventDefault();
+        return $('[type="text"]:first', overlayEl).focus();
+      }, 25);
+    });
+    return $('[data-action="closeOverlay"]').on('click', function(e) {
+      var overlayEl;
+      overlayEl = $(e.currentTarget).parents('[role="overlay"]:first');
+      $('body').removeClass('-overlay-open');
+      overlayEl.removeClass('-open');
+      e.preventDefault();
+      return setTimeout(function() {
+        return overlayEl.hide();
+      }, 250);
+    });
+  });
+
+}).call(this);
+:ET

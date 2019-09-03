@@ -1,0 +1,50 @@
+- css_classes = []
+- (defined?(small) && small) ? (css_classes << '-small') : nil
+- (defined?(fixed) && fixed) ? (css_classes << '-fixed') : nil
+- (defined?(omnipresent) && omnipresent) ? (css_classes << '-omnipresent') : nil
+- css_classes = css_classes.compact
+
+%div.progress-bar.-fixed &nbsp;
+%nav.meta-nav{class: css_classes}
+  .wrapper.-container{role: 'layout'}
+    .block.-bb
+      .meta-nav_content{style: 'min-height: 4.5rem'}
+        .left
+          - unless (defined?(brief) && brief)
+            %a.meta-nav_item{'data-action': 'openOverlay', 'data-target': 'menu'}
+              .icon= render partial: 'layouts/images/hamburger'
+
+        - if !(defined?(small) && small)
+          .center
+            = link_to root_path do
+              .logotype.-small
+                = render partial: 'layouts/images/logo-horizontal'
+
+        .right
+          - unless (defined?(brief) && brief) # if brief, only show log in
+            - if logged_in?
+              - if current_user.is_admin?
+                - if content_for(:admin_actions)
+                  = yield :admin_actions
+                = link_to [:admin, :root], class: 'meta-nav_item' do
+                  %span admin
+
+              = link_to :user, class: 'meta-nav_item' do
+                %span= current_user.email_address
+
+            - else
+              = link_to login_path, class: 'meta-nav_item' do
+                %span Log in
+
+          - else
+            - if !logged_in?
+              = link_to login_path, class: 'meta-nav_item' do
+                %span Log in
+
+          - unless (defined?(brief) && brief)
+            - if !logged_in? or !current_user.subscriber?
+              = link_to :products, class: 'meta-nav_item -subscribe' do
+                Subscribe
+
+            %a.meta-nav_item{'data-action': 'openOverlay', 'data-target': 'search'}
+              .icon= render partial: 'layouts/images/search'

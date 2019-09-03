@@ -1,0 +1,13 @@
+- title "#{ @issue.issue_date.strftime('%-d %B %Y') } issue"
+- description "Articles from Dublin Inquirer's #{ @issue.issue_date.strftime('%-d %B %Y') } issue"
+
+%header.page-header
+  %h1.h.-h2 From the <br>#{ @issue.issue_date.strftime('%-d %B %Y') } issue
+
+.block.-pt2.-pb4
+  - @articles.in_groups_of(4, false).each do |group|
+    .row
+      - group.each do |article|
+        .col-xs-12.col-lg-3
+          = render partial: 'articles/excerpts/result', locals: { article: article }
+          %hr.-stroke.-not-lg

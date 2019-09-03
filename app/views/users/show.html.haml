@@ -1,0 +1,88 @@
+- title 'Your account'
+- noindex true
+
+.wrapper.-small{role: 'layout'}
+  %header.page-header
+    %h1.h.-h2 Manage account
+
+  .block.-b.-p2.-my2.-bg-faint
+    .block.-pb1.-bb.-mb2
+      %h3.c.-w8 Account details
+    .p.-t4
+      %ul.list
+        %li.block.-mb1
+          %label.c.-w8 Name
+          %p #{ current_user.full_name.present? ? current_user.full_name : "[blank]" }
+        %li.block.-mb1
+          %label.c.-w8 Email
+          %p #{ current_user.email_address.present? ? current_user.email_address : "[blank]" }
+        %li.block
+          %label.c.-w8 Nickname for comments
+          %p #{ current_user.nickname.present? ? current_user.nickname : "[blank]" }
+
+  - if current_user.subscription
+    - cache ['user/show', current_user, 'subscription', current_user.subscription] do
+      .block.-b.-p2.-my2.-bg-faint
+        .block.-pb1.-bb.-mb2
+          %h3.c.-w8 Subscription details
+        .p.-t4
+          %ul.list
+            %li.block.-mb1
+              %label.c.-w8 Plan
+              %p
+                - if current_user.subscription.plan.is_friend?
+                  #{ 'Friend' }:
+                - elsif current_user.subscription.plan.is_patron?
+                  #{ 'Patron' }:
+                - else
+                  #{ current_user.subscription.plan.product.name }:
+
+                #{ number_to_currency((current_user.subscription.plan.amount/100.0), unit: '€') }/#{ current_user.subscription.plan.interval }
+
+            %li.block.-mb1
+              %label.c.-w8 Next billing date
+              - if current_user.subscription.current_period_ends_at.present?
+                %p #{ current_user.subscription.current_period_ends_at.strftime('%-d %B') }
+
+            - if current_user.requires_address?
+              %li.block.-mb1
+                %label.c.-w8 Shipping address
+                %p= raw current_user.address_lines.join('<br>')
+
+            - if current_user.subscription && current_user.subscriber?
+              - cache ['user/show', current_user, 'payment', current_user.subscription] do
+                %li.block.-mb1
+                  %label.c.-w8 Payment method
+                  - if current_user.sources_count > 0
+                    %p
+                      #{ current_user.card_brand }
+                      (<code>&hellip;#{ current_user.card_last_4 }</code>)
+                  - else
+                    .block.-mb1
+                      :markdown
+                        We don't have a working payment method on file for you.
+
+                    = link_to "Enter payment details", [:payment, :user], class: 'button -standard'
+
+  - if @invoices.any?
+    - cache ['user/show', current_user, 'invoices', @invoices] do
+      .block.-b.-p2.-my2.-bg-faint
+        .block.-pb1.-bb.-mb2
+          %h3.c.-w8 Invoices
+        .p.-t4
+          %ol.list
+            - @invoices.each do |invoice|
+              %li= link_to invoice.display_name, invoice, target: "_blank"
+
+  .block.-my4.-py4
+    .p.-t4.-sf.-centered
+      %h3.c.-w8 Account options
+      %ul
+        %li= link_to "Change account details", [:edit, :user]
+        - if current_user.subscription && current_user.subscriber?
+          - if current_user.subscription.changeable?
+            %li= link_to "Change subscription plan", [:subscription, :user]
+          - if current_user.subscription.requires_address?
+            %li= link_to "Change subscription address", [:address, :user]
+          %li= link_to "Update payment method", [:payment, :user]
+        %li= link_to "Log out", :user_session, method: :delete

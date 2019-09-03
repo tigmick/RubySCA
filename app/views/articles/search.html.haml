@@ -1,0 +1,17 @@
+- title "Search results for #{ params[:q] }"
+
+%header.page-header
+  %h1.h.-h2
+    Search results for
+    %span.c.-quote #{ params[:q] }
+
+.block.-pt2.-pb4
+  - if @articles.any?
+    .wrapper.-contained{role: 'layout'}
+      = render partial: 'articles/index', locals: {page: @page, articles: @articles, query_params: {q: @query}}
+
+  - else
+    .block.-py4
+      .p.-t3.-centered
+        :markdown
+          We couldn't find any articles matching your search terms.

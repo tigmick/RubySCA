@@ -1,0 +1,35 @@
+- title "About us"
+- description "Dublin Inquirer is an independent, reader-supported newspaper serving Ireland's capital"
+- set_meta_tags canonical: "https://www.dublininquirer.com/imprint"
+
+- cache ['imprint', 'v2'] do
+  %header.page-header
+    %h1.h.-h2 Dublin Inquirer is an independent newspaper launched in June 2015 to provide quality coverage of city affairs.
+
+  .block.-p2.-pb4
+    .p.-t3.-centered
+      .wrapper.-small{role: 'layout'}
+        .block.-my2
+          %h4.h.-h4 Managing editor
+          %p #{ link_to @staff[:editor].full_name, @staff[:editor] }
+
+        .block.-my2
+          %h4.h.-h4 Deputy editor
+          %p #{ link_to @staff[:deputy].full_name, @staff[:deputy] }
+
+        .block.-my2
+          %h4.h.-h4 City reporters
+          - @staff[:reporters].each do |reporter|
+            %p #{ link_to reporter.full_name, reporter }
+
+        .block.-my2
+          %h4.h.-h4 Columnists
+          - @columnists.each do |author|
+            %p #{ link_to author.full_name, author }
+
+        .block.-my2
+          %h4.h.-h4 Regular contributors
+          - @contributors.each do |author|
+            %p #{ link_to author.full_name, author }
+
+= render partial: 'products/enticement'

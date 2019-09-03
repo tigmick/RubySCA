@@ -1,0 +1,40 @@
+- content_for :subheader_detail do
+  %div
+    .breadcrumbs
+      = link_to 'Elections', [:admin, :election_surveys]
+      = link_to @election_survey.title, [:admin, @election_survey]
+
+    %nav
+      = link_to "Edit", [:edit, :admin, @election_survey], class: 'button'
+
+.block.-b.-p1.-bg-faint
+  .block.-pb1.-mb2.-bb
+    %h3 Import survey CSV
+    
+  = form_tag [:import, :admin, :election_survey], multipart: true do
+    = file_field_tag :file
+    = submit_tag 'Import CSV', class: 'button'
+
+.block.-b.-p1.-my2
+  .block.-pb1.-mb2.-bb
+    %h3 Questions
+  %table.admin-table
+    %tbody
+      - @election_survey.question_objects.each do |question|
+        %tr
+          %td #{ question.position }. #{ question.body }
+          %td{width: '150px'}
+            #{ pluralize @election_survey.responses_for_question(question).count, 'response' }
+
+.block.-b.-p1.-my2
+  .block.-pb1.-mb2.-bb
+    %h3 Candidates
+  %table.admin-table
+    %tbody
+      - @election_survey.candidate_objects.each do |candidate|
+        %tr
+          %td #{ candidate.name }
+          %td #{ candidate.area }
+          %td #{ candidate.party }
+          %td{width: '150px'}
+            #{ pluralize @election_survey.responses_for_candidate(candidate).count, 'response' }

@@ -1,0 +1,20 @@
+- cache [comment, 'partial'] do
+  .block.-b.-p2.-my2
+    .block.-mb2.-pb1.-bb
+      %h3.c.-w4{id: "comment-#{ comment.id }"}
+        .inline.c.-w8 #{ comment.display_name }
+        .inline
+          - if comment.created_at < 6.months.ago
+            at #{ comment.created_at.strftime('%e %B %Y at %H:%M') }
+          - else
+            at #{ comment.created_at.strftime('%e %B at %H:%M') }
+
+    .block
+      .p.-t3.c.-serif
+        - if comment.parent.present?
+          :markdown
+            #{ link_to "@#{ comment.parent.display_name }", "#comment-#{ comment.parent.id }" }:
+            #{ render_comment comment.content_markdown }
+        - else
+          :markdown
+            #{ render_comment comment.content_markdown }

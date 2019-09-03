@@ -1,0 +1,22 @@
+I"!(function() {
+  $(document).on('ready turbolinks:load', function() {
+    'use strict';
+    return $('[data-action="acceptCookies"]').on('click', function(e) {
+      var noticeEl;
+      noticeEl = $(e.currentTarget).parents('.notice:first');
+      noticeEl.css('bottom', '-100%');
+      e.preventDefault();
+      $.ajax({
+        url: '/accept',
+        type: 'PUT',
+        data: {},
+        success: function(data) {}
+      });
+      return setTimeout(function() {
+        return noticeEl.detach();
+      }, 500);
+    });
+  });
+
+}).call(this);
+:ET

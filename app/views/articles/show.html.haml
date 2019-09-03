@@ -1,0 +1,70 @@
+- set_meta_tags title: raw(@article.title)
+- set_meta_tags description: raw(@article.excerpt)
+- set_meta_tags canonical: "https://www.dublininquirer.com#{ @article.path }"
+- set_meta_tags 'article:publisher': 'https://www.facebook.com/dublininquirer/'
+- set_meta_tags 'article:author': "https://www.dublininquirer.com/contributors/#{ @article.author.try(:slug) }"
+- set_meta_tags author: "https://www.dublininquirer.com/contributors/#{ @article.author.try(:slug) }"
+
+- set_meta_tags og: {type: 'article', url: "https://www.dublininquirer.com#{ @article.path }", description: raw(@article.excerpt), title: raw(@article.title)}
+
+- if @article.featured_artwork.present?
+  - set_meta_tags image_src: @article.featured_artwork.image.large.url
+  - set_meta_tags og: {image: @article.featured_artwork.image.large.url.gsub('https:','http:'), 'image:url': @article.featured_artwork.image.large.url, 'image:secure_url': @article.featured_artwork.image.large.url}
+  - set_meta_tags twitter: {image: {'_': @article.featured_artwork.image.large.url}}
+
+  - if @article.featured_artwork.width_px.present? && @article.featured_artwork.height_px.present?
+    - set_meta_tags 'og:image:width': @article.featured_artwork.large_width_px
+    - set_meta_tags 'og:image:height': @article.featured_artwork.large_height_px
+    - set_meta_tags 'og:image:type': @article.featured_artwork.file_type
+
+- content_for :admin_actions do
+  = link_to [:admin, @article], class: 'meta-nav_item' do
+    %span edit
+
+- cache ['articles', @article, @template, @limited] do
+  .block.-pb4= render partial: "articles/templates/#{ @template }", locals: { article: @article, limited: @limited }
+
+- cache ['articles', @article, @article.authors, 'meta'] do
+  .block.-bt.-py4.-mt4
+    - if @article.tags.any?
+      .row
+        .col-xs-12.col-md-6.col-lg-4
+          %h3.p.-t4.c.-w6 Filed under:
+
+          .block.-mb2
+            .p.-t4
+              %ul.list.-sentence
+                - @article.displayable_tags.each do |tag|
+                  %li= link_to tag.name, tag_path(id: tag.slug)
+
+        .col-xs-12.col-md-6.col-lg-4
+          %h3.p.-t4.c.-w6 #{ @article.authors.many? ? 'Authors' : 'Author' }:
+
+          .block.-mb2
+            .p.-t4
+              - @article.authors.each do |author|
+                :markdown
+                  _#{ link_to author.full_name, author }:_ #{ author.bio }
+
+- if @article.commentable?
+  .block.-bt.-py4
+    = render partial: 'comments/comments', locals: { article: @article }
+
+- cache ['articles', @article.from_the_same_issue, 'preview'] do
+  .block.-bt.-py4
+    - if @article.from_the_same_issue.by_position.any?
+      .block
+        .block.-mb3
+          %h3.h.-h4.-centered Also in the<br>#{ @article.issue_date.strftime('%-d %B %Y') } issue
+
+        .row
+          - @article.from_the_same_issue.by_position.first(4).each do |article|
+            .col-xs-12.col-md-3
+              = render partial: 'articles/excerpts/tiny', locals: { article: article }
+
+= render partial: 'products/enticement'
+
+- if @limited
+  = render partial: 'user_sessions/limited'
+- elsif permission_for_cookie? and @article.paywalled? # yes cookie, and yes paywalled
+  = render partial: 'user_sessions/paywall'

@@ -1,0 +1,9 @@
+- title display_category(@category)
+- description "Articles in the #{ display_category(@category) } category."
+
+%header.page-header
+  %h1.h.-h2= display_category(@category)
+
+.block.-pt2.-pb4
+  .wrapper.-contained{role: 'layout'}
+    = render partial: 'articles/index', locals: {page: @page, articles: @articles, query_params: {}}

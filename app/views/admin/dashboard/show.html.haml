@@ -1,0 +1,41 @@
+.container
+  .row
+    .col-xs-12.col-md-4
+      - cache ['admin', 'dashboard', @current_issue.articles] do
+        .block.-bg-faint.-p2
+          .block.-bb.-pb1.-mb1
+            %h3= link_to "Current issue", [:admin, @current_issue]
+          
+          .block
+            - @current_issue.articles.by_position.each do |article|
+              .p.-t5
+                .inline.c.-w6= link_to "· #{ article.title }", [:admin, article]
+                by #{ article.authors.map { |a| a.full_name }.to_sentence }
+
+    .col-xs-12.col-md-4
+      - cache ['admin', 'dashboard', @recent_subs] do
+        .block.-bg-faint.-p2
+          .block.-bb.-pb1.-mb1
+            %h3= link_to "Recently subscribed", [:admin, :subscriptions]
+          
+          .block
+            - @recent_subs.each do |subscription|
+              .p.-t5
+                .inline.c.-w6= link_to "· #{ subscription.user.email_address }:", [:admin, subscription]
+                #{ subscription.plan.human_name }
+                - if subscription.is_stripe?
+                  (#{number_to_currency((subscription.plan.amount/100.0), unit: '€')})
+
+    .col-xs-12.col-md-4
+      - cache ['admin', 'dashboard', @in_danger] do
+        .block.-bg-faint.-p2
+          .block.-bb.-pb1.-mb1
+            %h3= link_to "Past due", [:admin, :subscriptions]
+          
+          .block
+            - @in_danger.each do |subscription|
+              .p.-t5
+                .inline.c.-w6= link_to "· #{ subscription.user.email_address }:", [:admin, subscription]
+                #{ subscription.plan.is_print? ? 'Print' : 'Digital' }
+                - if subscription.is_stripe?
+                  (#{number_to_currency((subscription.plan.amount/100.0), unit: '€')})

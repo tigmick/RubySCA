@@ -1,0 +1,28 @@
+- set_meta_tags title: @author.full_name
+- set_meta_tags description: @author.bio
+- set_meta_tags canonical: "https://www.dublininquirer.com/contributors/#{ @author.slug }"
+
+- if @author.portrait.present?
+  - set_meta_tags image_src: @author.portrait.url
+  - set_meta_tags og: {image: @author.portrait.url}
+  - set_meta_tags twitter: {image: {'_': @author.portrait.url}}
+
+%header.page-header.-illustrated
+  %h1.h.-h2= @author.full_name
+
+  - if @author.portrait.present?
+    .block.-mt1
+      %figure.artwork.-face
+        = image_tag @author.portrait.url
+
+  - if @author.bio.present?
+    .block.-mt1.p.-t3
+      :markdown
+        #{ raw @author.bio }
+
+- if @articles.any?
+  .block.-pt2.-pb4
+    .wrapper.-contained{role: 'layout'}
+      .block.-my2
+        %h3.h.-h4.-centered Articles by #{ @author.full_name }
+      = render partial: 'articles/index', locals: {page: @page, articles: @articles, query_params: {}}

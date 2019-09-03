@@ -1,0 +1,919 @@
+# Logfile created on 2019-08-24 01:51:47 +0200 by logger.rb/66358
+[08/24/19 01:51:47 +0200 admins-MacBook-Pro.local (12128)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 01:51:47 +0200 admins-MacBook-Pro.local (12128)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 01:51:47 +0200 admins-MacBook-Pro.local (12128)] INFO : Not Loading Instruments
+[08/24/19 01:51:47 +0200 admins-MacBook-Pro.local (12128)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 01:51:47 +0200 admins-MacBook-Pro.local (12128)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 01:51:47 +0200 admins-MacBook-Pro.local (12128)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 01:52:03 +0200 admins-MacBook-Pro.local (12179)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 01:52:03 +0200 admins-MacBook-Pro.local (12179)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 01:52:03 +0200 admins-MacBook-Pro.local (12179)] INFO : Not Loading Instruments
+[08/24/19 01:52:03 +0200 admins-MacBook-Pro.local (12179)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 01:52:03 +0200 admins-MacBook-Pro.local (12179)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 01:52:03 +0200 admins-MacBook-Pro.local (12179)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 01:52:38 +0200 admins-MacBook-Pro.local (12365)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 01:52:38 +0200 admins-MacBook-Pro.local (12365)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 01:52:38 +0200 admins-MacBook-Pro.local (12365)] INFO : Not Loading Instruments
+[08/24/19 01:52:38 +0200 admins-MacBook-Pro.local (12365)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 01:52:38 +0200 admins-MacBook-Pro.local (12365)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 01:52:38 +0200 admins-MacBook-Pro.local (12365)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 01:53:01 +0200 admins-MacBook-Pro.local (12422)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 01:53:01 +0200 admins-MacBook-Pro.local (12422)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 01:53:01 +0200 admins-MacBook-Pro.local (12422)] INFO : Not Loading Instruments
+[08/24/19 01:53:01 +0200 admins-MacBook-Pro.local (12422)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 01:53:01 +0200 admins-MacBook-Pro.local (12422)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 01:53:01 +0200 admins-MacBook-Pro.local (12422)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 01:53:35 +0200 admins-MacBook-Pro.local (12461)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 01:53:35 +0200 admins-MacBook-Pro.local (12461)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 01:53:35 +0200 admins-MacBook-Pro.local (12461)] INFO : Not Loading Instruments
+[08/24/19 01:53:35 +0200 admins-MacBook-Pro.local (12461)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 01:53:35 +0200 admins-MacBook-Pro.local (12461)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 01:53:35 +0200 admins-MacBook-Pro.local (12461)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 02:01:31 +0200 admins-MacBook-Pro.local (12837)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 02:01:31 +0200 admins-MacBook-Pro.local (12837)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 02:01:31 +0200 admins-MacBook-Pro.local (12837)] INFO : Not Loading Instruments
+[08/24/19 02:01:31 +0200 admins-MacBook-Pro.local (12837)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 02:01:31 +0200 admins-MacBook-Pro.local (12837)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 02:01:31 +0200 admins-MacBook-Pro.local (12837)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 02:02:27 +0200 admins-MacBook-Pro.local (12912)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 02:02:27 +0200 admins-MacBook-Pro.local (12912)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 02:02:27 +0200 admins-MacBook-Pro.local (12912)] INFO : Not Loading Instruments
+[08/24/19 02:02:27 +0200 admins-MacBook-Pro.local (12912)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 02:02:27 +0200 admins-MacBook-Pro.local (12912)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 02:02:27 +0200 admins-MacBook-Pro.local (12912)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 02:03:24 +0200 admins-MacBook-Pro.local (12978)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 02:03:24 +0200 admins-MacBook-Pro.local (12978)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 02:03:24 +0200 admins-MacBook-Pro.local (12978)] INFO : Not Loading Instruments
+[08/24/19 02:03:24 +0200 admins-MacBook-Pro.local (12978)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 02:03:24 +0200 admins-MacBook-Pro.local (12978)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 02:03:24 +0200 admins-MacBook-Pro.local (12978)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 02:03:39 +0200 admins-MacBook-Pro.local (13006)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 02:03:39 +0200 admins-MacBook-Pro.local (13006)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 02:03:39 +0200 admins-MacBook-Pro.local (13006)] INFO : Not Loading Instruments
+[08/24/19 02:03:39 +0200 admins-MacBook-Pro.local (13006)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 02:03:39 +0200 admins-MacBook-Pro.local (13006)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 02:03:39 +0200 admins-MacBook-Pro.local (13006)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 02:03:46 +0200 admins-MacBook-Pro.local (13033)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 02:03:46 +0200 admins-MacBook-Pro.local (13033)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 02:03:46 +0200 admins-MacBook-Pro.local (13033)] INFO : Not Loading Instruments
+[08/24/19 02:03:46 +0200 admins-MacBook-Pro.local (13033)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 02:03:46 +0200 admins-MacBook-Pro.local (13033)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 02:03:46 +0200 admins-MacBook-Pro.local (13033)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 02:04:40 +0200 admins-MacBook-Pro.local (13090)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 02:04:40 +0200 admins-MacBook-Pro.local (13090)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 02:04:40 +0200 admins-MacBook-Pro.local (13090)] INFO : Not Loading Instruments
+[08/24/19 02:04:40 +0200 admins-MacBook-Pro.local (13090)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 02:04:40 +0200 admins-MacBook-Pro.local (13090)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 02:04:40 +0200 admins-MacBook-Pro.local (13090)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 02:04:42 +0200 admins-MacBook-Pro.local (13092)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 02:04:42 +0200 admins-MacBook-Pro.local (13092)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 02:04:42 +0200 admins-MacBook-Pro.local (13092)] INFO : Not Loading Instruments
+[08/24/19 02:04:42 +0200 admins-MacBook-Pro.local (13092)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 02:04:42 +0200 admins-MacBook-Pro.local (13092)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 02:04:42 +0200 admins-MacBook-Pro.local (13092)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 02:07:05 +0200 admins-MacBook-Pro.local (13234)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 02:07:05 +0200 admins-MacBook-Pro.local (13234)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 02:07:05 +0200 admins-MacBook-Pro.local (13234)] INFO : Not Loading Instruments
+[08/24/19 02:07:05 +0200 admins-MacBook-Pro.local (13234)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 02:07:05 +0200 admins-MacBook-Pro.local (13234)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 02:07:05 +0200 admins-MacBook-Pro.local (13234)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 15:32:50 +0200 admins-MacBook-Pro.local (13799)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 15:32:50 +0200 admins-MacBook-Pro.local (13799)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 15:32:50 +0200 admins-MacBook-Pro.local (13799)] INFO : Not Loading Instruments
+[08/24/19 15:32:50 +0200 admins-MacBook-Pro.local (13799)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 15:32:50 +0200 admins-MacBook-Pro.local (13799)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 15:32:50 +0200 admins-MacBook-Pro.local (13799)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 15:34:49 +0200 admins-MacBook-Pro.local (13871)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 15:34:49 +0200 admins-MacBook-Pro.local (13871)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 15:34:49 +0200 admins-MacBook-Pro.local (13871)] INFO : Not Loading Instruments
+[08/24/19 15:34:49 +0200 admins-MacBook-Pro.local (13871)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 15:34:49 +0200 admins-MacBook-Pro.local (13871)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 15:34:49 +0200 admins-MacBook-Pro.local (13871)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 15:39:06 +0200 admins-MacBook-Pro.local (14025)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 15:39:06 +0200 admins-MacBook-Pro.local (14025)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 15:39:06 +0200 admins-MacBook-Pro.local (14025)] INFO : Not Loading Instruments
+[08/24/19 15:39:06 +0200 admins-MacBook-Pro.local (14025)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 15:39:06 +0200 admins-MacBook-Pro.local (14025)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 15:39:06 +0200 admins-MacBook-Pro.local (14025)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 15:39:19 +0200 admins-MacBook-Pro.local (14053)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 15:39:19 +0200 admins-MacBook-Pro.local (14053)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 15:39:19 +0200 admins-MacBook-Pro.local (14053)] INFO : Not Loading Instruments
+[08/24/19 15:39:19 +0200 admins-MacBook-Pro.local (14053)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 15:39:19 +0200 admins-MacBook-Pro.local (14053)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 15:39:19 +0200 admins-MacBook-Pro.local (14053)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 15:40:45 +0200 admins-MacBook-Pro.local (14268)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 15:40:45 +0200 admins-MacBook-Pro.local (14268)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 15:40:45 +0200 admins-MacBook-Pro.local (14268)] INFO : Not Loading Instruments
+[08/24/19 15:40:45 +0200 admins-MacBook-Pro.local (14268)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 15:40:45 +0200 admins-MacBook-Pro.local (14268)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 15:40:45 +0200 admins-MacBook-Pro.local (14268)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 15:41:07 +0200 admins-MacBook-Pro.local (14327)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 15:41:07 +0200 admins-MacBook-Pro.local (14327)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 15:41:07 +0200 admins-MacBook-Pro.local (14327)] INFO : Not Loading Instruments
+[08/24/19 15:41:07 +0200 admins-MacBook-Pro.local (14327)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 15:41:07 +0200 admins-MacBook-Pro.local (14327)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 15:41:07 +0200 admins-MacBook-Pro.local (14327)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 15:42:35 +0200 admins-MacBook-Pro.local (14379)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 15:42:35 +0200 admins-MacBook-Pro.local (14379)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 15:42:35 +0200 admins-MacBook-Pro.local (14379)] INFO : Not Loading Instruments
+[08/24/19 15:42:35 +0200 admins-MacBook-Pro.local (14379)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 15:42:35 +0200 admins-MacBook-Pro.local (14379)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 15:42:35 +0200 admins-MacBook-Pro.local (14379)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 15:49:43 +0200 admins-MacBook-Pro.local (14571)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 15:49:43 +0200 admins-MacBook-Pro.local (14571)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 15:49:43 +0200 admins-MacBook-Pro.local (14571)] INFO : Not Loading Instruments
+[08/24/19 15:49:43 +0200 admins-MacBook-Pro.local (14571)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 15:49:43 +0200 admins-MacBook-Pro.local (14571)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 15:49:43 +0200 admins-MacBook-Pro.local (14571)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 15:49:50 +0200 admins-MacBook-Pro.local (14605)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 15:49:50 +0200 admins-MacBook-Pro.local (14605)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 15:49:50 +0200 admins-MacBook-Pro.local (14605)] INFO : Not Loading Instruments
+[08/24/19 15:49:50 +0200 admins-MacBook-Pro.local (14605)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 15:49:50 +0200 admins-MacBook-Pro.local (14605)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 15:49:50 +0200 admins-MacBook-Pro.local (14605)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 16:05:22 +0200 admins-MacBook-Pro.local (15247)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 16:05:22 +0200 admins-MacBook-Pro.local (15247)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 16:05:22 +0200 admins-MacBook-Pro.local (15247)] INFO : Not Loading Instruments
+[08/24/19 16:05:22 +0200 admins-MacBook-Pro.local (15247)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 16:05:22 +0200 admins-MacBook-Pro.local (15247)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 16:05:22 +0200 admins-MacBook-Pro.local (15247)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 16:07:59 +0200 admins-MacBook-Pro.local (15389)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 16:07:59 +0200 admins-MacBook-Pro.local (15389)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 16:07:59 +0200 admins-MacBook-Pro.local (15389)] INFO : Not Loading Instruments
+[08/24/19 16:07:59 +0200 admins-MacBook-Pro.local (15389)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 16:07:59 +0200 admins-MacBook-Pro.local (15389)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 16:07:59 +0200 admins-MacBook-Pro.local (15389)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 16:08:15 +0200 admins-MacBook-Pro.local (15434)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 16:08:15 +0200 admins-MacBook-Pro.local (15434)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 16:08:15 +0200 admins-MacBook-Pro.local (15434)] INFO : Not Loading Instruments
+[08/24/19 16:08:15 +0200 admins-MacBook-Pro.local (15434)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 16:08:15 +0200 admins-MacBook-Pro.local (15434)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 16:08:15 +0200 admins-MacBook-Pro.local (15434)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 16:11:45 +0200 admins-MacBook-Pro.local (15606)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 16:11:45 +0200 admins-MacBook-Pro.local (15606)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 16:11:45 +0200 admins-MacBook-Pro.local (15606)] INFO : Not Loading Instruments
+[08/24/19 16:11:45 +0200 admins-MacBook-Pro.local (15606)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 16:11:45 +0200 admins-MacBook-Pro.local (15606)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 16:11:45 +0200 admins-MacBook-Pro.local (15606)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 16:12:48 +0200 admins-MacBook-Pro.local (15677)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 16:12:48 +0200 admins-MacBook-Pro.local (15677)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 16:12:48 +0200 admins-MacBook-Pro.local (15677)] INFO : Not Loading Instruments
+[08/24/19 16:12:48 +0200 admins-MacBook-Pro.local (15677)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 16:12:48 +0200 admins-MacBook-Pro.local (15677)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 16:12:48 +0200 admins-MacBook-Pro.local (15677)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 16:17:31 +0200 admins-MacBook-Pro.local (15800)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 16:17:31 +0200 admins-MacBook-Pro.local (15800)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 16:17:31 +0200 admins-MacBook-Pro.local (15800)] INFO : Not Loading Instruments
+[08/24/19 16:17:31 +0200 admins-MacBook-Pro.local (15800)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 16:17:31 +0200 admins-MacBook-Pro.local (15800)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 16:17:31 +0200 admins-MacBook-Pro.local (15800)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 16:18:01 +0200 admins-MacBook-Pro.local (15863)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 16:18:01 +0200 admins-MacBook-Pro.local (15863)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 16:18:01 +0200 admins-MacBook-Pro.local (15863)] INFO : Not Loading Instruments
+[08/24/19 16:18:01 +0200 admins-MacBook-Pro.local (15863)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 16:18:01 +0200 admins-MacBook-Pro.local (15863)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 16:18:01 +0200 admins-MacBook-Pro.local (15863)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 16:18:12 +0200 admins-MacBook-Pro.local (15894)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 16:18:12 +0200 admins-MacBook-Pro.local (15894)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 16:18:12 +0200 admins-MacBook-Pro.local (15894)] INFO : Not Loading Instruments
+[08/24/19 16:18:12 +0200 admins-MacBook-Pro.local (15894)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 16:18:12 +0200 admins-MacBook-Pro.local (15894)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 16:18:12 +0200 admins-MacBook-Pro.local (15894)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 16:18:32 +0200 admins-MacBook-Pro.local (15942)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 16:18:32 +0200 admins-MacBook-Pro.local (15942)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 16:18:32 +0200 admins-MacBook-Pro.local (15942)] INFO : Not Loading Instruments
+[08/24/19 16:18:32 +0200 admins-MacBook-Pro.local (15942)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 16:18:32 +0200 admins-MacBook-Pro.local (15942)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 16:18:32 +0200 admins-MacBook-Pro.local (15942)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 16:58:38 +0200 admins-MacBook-Pro.local (16985)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 16:58:38 +0200 admins-MacBook-Pro.local (16985)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 16:58:38 +0200 admins-MacBook-Pro.local (16985)] INFO : Not Loading Instruments
+[08/24/19 16:58:38 +0200 admins-MacBook-Pro.local (16985)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 16:58:38 +0200 admins-MacBook-Pro.local (16985)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 16:58:38 +0200 admins-MacBook-Pro.local (16985)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 17:05:57 +0200 admins-MacBook-Pro.local (17324)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 17:05:57 +0200 admins-MacBook-Pro.local (17324)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 17:05:57 +0200 admins-MacBook-Pro.local (17324)] INFO : Not Loading Instruments
+[08/24/19 17:05:57 +0200 admins-MacBook-Pro.local (17324)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 17:05:57 +0200 admins-MacBook-Pro.local (17324)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 17:05:57 +0200 admins-MacBook-Pro.local (17324)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 18:31:57 +0200 admins-MacBook-Pro.local (18630)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 18:31:57 +0200 admins-MacBook-Pro.local (18630)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 18:31:57 +0200 admins-MacBook-Pro.local (18630)] INFO : Not Loading Instruments
+[08/24/19 18:31:57 +0200 admins-MacBook-Pro.local (18630)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 18:31:57 +0200 admins-MacBook-Pro.local (18630)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 18:31:57 +0200 admins-MacBook-Pro.local (18630)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 18:39:27 +0200 admins-MacBook-Pro.local (18906)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 18:39:27 +0200 admins-MacBook-Pro.local (18906)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 18:39:27 +0200 admins-MacBook-Pro.local (18906)] INFO : Not Loading Instruments
+[08/24/19 18:39:27 +0200 admins-MacBook-Pro.local (18906)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 18:39:27 +0200 admins-MacBook-Pro.local (18906)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 18:39:27 +0200 admins-MacBook-Pro.local (18906)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 18:42:25 +0200 admins-MacBook-Pro.local (19252)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 18:42:25 +0200 admins-MacBook-Pro.local (19252)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 18:42:25 +0200 admins-MacBook-Pro.local (19252)] INFO : Not Loading Instruments
+[08/24/19 18:42:25 +0200 admins-MacBook-Pro.local (19252)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 18:42:25 +0200 admins-MacBook-Pro.local (19252)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 18:42:25 +0200 admins-MacBook-Pro.local (19252)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 18:48:08 +0200 admins-MacBook-Pro.local (19496)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 18:48:08 +0200 admins-MacBook-Pro.local (19496)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 18:48:08 +0200 admins-MacBook-Pro.local (19496)] INFO : Not Loading Instruments
+[08/24/19 18:48:08 +0200 admins-MacBook-Pro.local (19496)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 18:48:08 +0200 admins-MacBook-Pro.local (19496)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 18:48:08 +0200 admins-MacBook-Pro.local (19496)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 18:48:49 +0200 admins-MacBook-Pro.local (19604)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 18:48:49 +0200 admins-MacBook-Pro.local (19604)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 18:48:49 +0200 admins-MacBook-Pro.local (19604)] INFO : Not Loading Instruments
+[08/24/19 18:48:49 +0200 admins-MacBook-Pro.local (19604)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 18:48:50 +0200 admins-MacBook-Pro.local (19604)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 18:48:50 +0200 admins-MacBook-Pro.local (19604)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 18:55:23 +0200 admins-MacBook-Pro.local (19886)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 18:55:23 +0200 admins-MacBook-Pro.local (19886)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 18:55:23 +0200 admins-MacBook-Pro.local (19886)] INFO : Not Loading Instruments
+[08/24/19 18:55:23 +0200 admins-MacBook-Pro.local (19886)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 18:55:23 +0200 admins-MacBook-Pro.local (19886)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 18:55:23 +0200 admins-MacBook-Pro.local (19886)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 19:02:43 +0200 admins-MacBook-Pro.local (20252)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 19:02:43 +0200 admins-MacBook-Pro.local (20252)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 19:02:43 +0200 admins-MacBook-Pro.local (20252)] INFO : Not Loading Instruments
+[08/24/19 19:02:43 +0200 admins-MacBook-Pro.local (20252)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 19:02:43 +0200 admins-MacBook-Pro.local (20252)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 19:02:43 +0200 admins-MacBook-Pro.local (20252)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 19:07:52 +0200 admins-MacBook-Pro.local (20448)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 19:07:52 +0200 admins-MacBook-Pro.local (20448)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 19:07:52 +0200 admins-MacBook-Pro.local (20448)] INFO : Not Loading Instruments
+[08/24/19 19:07:52 +0200 admins-MacBook-Pro.local (20448)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 19:07:52 +0200 admins-MacBook-Pro.local (20448)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 19:07:52 +0200 admins-MacBook-Pro.local (20448)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 19:11:22 +0200 admins-MacBook-Pro.local (20702)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 19:11:22 +0200 admins-MacBook-Pro.local (20702)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 19:11:22 +0200 admins-MacBook-Pro.local (20702)] INFO : Not Loading Instruments
+[08/24/19 19:11:22 +0200 admins-MacBook-Pro.local (20702)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 19:11:22 +0200 admins-MacBook-Pro.local (20702)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 19:11:22 +0200 admins-MacBook-Pro.local (20702)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 19:24:24 +0200 admins-MacBook-Pro.local (21004)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 19:24:24 +0200 admins-MacBook-Pro.local (21004)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 19:24:24 +0200 admins-MacBook-Pro.local (21004)] INFO : Not Loading Instruments
+[08/24/19 19:24:24 +0200 admins-MacBook-Pro.local (21004)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 19:24:24 +0200 admins-MacBook-Pro.local (21004)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 19:24:24 +0200 admins-MacBook-Pro.local (21004)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 19:27:02 +0200 admins-MacBook-Pro.local (21089)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 19:27:02 +0200 admins-MacBook-Pro.local (21089)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 19:27:02 +0200 admins-MacBook-Pro.local (21089)] INFO : Not Loading Instruments
+[08/24/19 19:27:02 +0200 admins-MacBook-Pro.local (21089)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 19:27:02 +0200 admins-MacBook-Pro.local (21089)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 19:27:02 +0200 admins-MacBook-Pro.local (21089)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 19:35:47 +0200 admins-MacBook-Pro.local (21406)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 19:35:47 +0200 admins-MacBook-Pro.local (21406)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 19:35:47 +0200 admins-MacBook-Pro.local (21406)] INFO : Not Loading Instruments
+[08/24/19 19:35:47 +0200 admins-MacBook-Pro.local (21406)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 19:35:47 +0200 admins-MacBook-Pro.local (21406)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 19:35:47 +0200 admins-MacBook-Pro.local (21406)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 20:28:51 +0200 admins-MacBook-Pro.local (22751)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 20:28:51 +0200 admins-MacBook-Pro.local (22751)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 20:28:51 +0200 admins-MacBook-Pro.local (22751)] INFO : Not Loading Instruments
+[08/24/19 20:28:51 +0200 admins-MacBook-Pro.local (22751)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 20:28:51 +0200 admins-MacBook-Pro.local (22751)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 20:28:51 +0200 admins-MacBook-Pro.local (22751)] INFO : Deferring agent start. Standing by for first request
+[08/24/19 20:38:10 +0200 admins-MacBook-Pro.local (23015)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/24/19 20:38:10 +0200 admins-MacBook-Pro.local (23015)] INFO : Scout Agent [2.5.2] Initialized
+[08/24/19 20:38:10 +0200 admins-MacBook-Pro.local (23015)] INFO : Not Loading Instruments
+[08/24/19 20:38:10 +0200 admins-MacBook-Pro.local (23015)] INFO : Scout Agent [2.5.2] Installed
+[08/24/19 20:38:10 +0200 admins-MacBook-Pro.local (23015)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/24/19 20:38:10 +0200 admins-MacBook-Pro.local (23015)] INFO : Deferring agent start. Standing by for first request
+[08/25/19 22:02:41 +0200 admins-MacBook-Pro.local (28788)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/25/19 22:02:41 +0200 admins-MacBook-Pro.local (28788)] INFO : Scout Agent [2.5.2] Initialized
+[08/25/19 22:02:41 +0200 admins-MacBook-Pro.local (28788)] INFO : Not Loading Instruments
+[08/25/19 22:02:41 +0200 admins-MacBook-Pro.local (28788)] INFO : Scout Agent [2.5.2] Installed
+[08/25/19 22:02:41 +0200 admins-MacBook-Pro.local (28788)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/25/19 22:02:41 +0200 admins-MacBook-Pro.local (28788)] INFO : Deferring agent start. Standing by for first request
+[08/25/19 22:03:02 +0200 admins-MacBook-Pro.local (28842)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/25/19 22:03:02 +0200 admins-MacBook-Pro.local (28842)] INFO : Scout Agent [2.5.2] Initialized
+[08/25/19 22:03:02 +0200 admins-MacBook-Pro.local (28842)] INFO : Not Loading Instruments
+[08/25/19 22:03:02 +0200 admins-MacBook-Pro.local (28842)] INFO : Scout Agent [2.5.2] Installed
+[08/25/19 22:03:02 +0200 admins-MacBook-Pro.local (28842)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/25/19 22:03:02 +0200 admins-MacBook-Pro.local (28842)] INFO : Deferring agent start. Standing by for first request
+[08/25/19 22:05:05 +0200 admins-MacBook-Pro.local (28927)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/25/19 22:05:05 +0200 admins-MacBook-Pro.local (28927)] INFO : Scout Agent [2.5.2] Initialized
+[08/25/19 22:05:05 +0200 admins-MacBook-Pro.local (28927)] INFO : Not Loading Instruments
+[08/25/19 22:05:05 +0200 admins-MacBook-Pro.local (28927)] INFO : Scout Agent [2.5.2] Installed
+[08/25/19 22:05:05 +0200 admins-MacBook-Pro.local (28927)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/25/19 22:05:05 +0200 admins-MacBook-Pro.local (28927)] INFO : Deferring agent start. Standing by for first request
+[08/25/19 22:05:13 +0200 admins-MacBook-Pro.local (28970)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/25/19 22:05:13 +0200 admins-MacBook-Pro.local (28970)] INFO : Scout Agent [2.5.2] Initialized
+[08/25/19 22:05:13 +0200 admins-MacBook-Pro.local (28970)] INFO : Not Loading Instruments
+[08/25/19 22:05:13 +0200 admins-MacBook-Pro.local (28970)] INFO : Scout Agent [2.5.2] Installed
+[08/25/19 22:05:13 +0200 admins-MacBook-Pro.local (28970)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/25/19 22:05:13 +0200 admins-MacBook-Pro.local (28970)] INFO : Deferring agent start. Standing by for first request
+[08/25/19 22:17:43 +0200 admins-MacBook-Pro.local (29333)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/25/19 22:17:43 +0200 admins-MacBook-Pro.local (29333)] INFO : Scout Agent [2.5.2] Initialized
+[08/25/19 22:17:43 +0200 admins-MacBook-Pro.local (29333)] INFO : Not Loading Instruments
+[08/25/19 22:17:43 +0200 admins-MacBook-Pro.local (29333)] INFO : Scout Agent [2.5.2] Installed
+[08/25/19 22:17:43 +0200 admins-MacBook-Pro.local (29333)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/25/19 22:17:43 +0200 admins-MacBook-Pro.local (29333)] INFO : Deferring agent start. Standing by for first request
+[08/25/19 22:18:05 +0200 admins-MacBook-Pro.local (29440)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/25/19 22:18:05 +0200 admins-MacBook-Pro.local (29440)] INFO : Scout Agent [2.5.2] Initialized
+[08/25/19 22:18:05 +0200 admins-MacBook-Pro.local (29440)] INFO : Not Loading Instruments
+[08/25/19 22:18:05 +0200 admins-MacBook-Pro.local (29440)] INFO : Scout Agent [2.5.2] Installed
+[08/25/19 22:18:05 +0200 admins-MacBook-Pro.local (29440)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/25/19 22:18:05 +0200 admins-MacBook-Pro.local (29440)] INFO : Deferring agent start. Standing by for first request
+[08/27/19 20:59:48 +0200 admins-MacBook-Pro.local (43921)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/27/19 20:59:48 +0200 admins-MacBook-Pro.local (43921)] INFO : Scout Agent [2.5.2] Initialized
+[08/27/19 20:59:48 +0200 admins-MacBook-Pro.local (43921)] INFO : Not Loading Instruments
+[08/27/19 20:59:48 +0200 admins-MacBook-Pro.local (43921)] INFO : Scout Agent [2.5.2] Installed
+[08/27/19 20:59:48 +0200 admins-MacBook-Pro.local (43921)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/27/19 20:59:48 +0200 admins-MacBook-Pro.local (43921)] INFO : Deferring agent start. Standing by for first request
+[08/27/19 23:25:29 +0200 admins-MacBook-Pro.local (46362)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/27/19 23:25:29 +0200 admins-MacBook-Pro.local (46362)] INFO : Scout Agent [2.5.2] Initialized
+[08/27/19 23:25:29 +0200 admins-MacBook-Pro.local (46362)] INFO : Not Loading Instruments
+[08/27/19 23:25:29 +0200 admins-MacBook-Pro.local (46362)] INFO : Scout Agent [2.5.2] Installed
+[08/27/19 23:25:29 +0200 admins-MacBook-Pro.local (46362)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/27/19 23:25:29 +0200 admins-MacBook-Pro.local (46362)] INFO : Deferring agent start. Standing by for first request
+[08/27/19 23:25:53 +0200 admins-MacBook-Pro.local (46410)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/27/19 23:25:53 +0200 admins-MacBook-Pro.local (46410)] INFO : Scout Agent [2.5.2] Initialized
+[08/27/19 23:25:53 +0200 admins-MacBook-Pro.local (46410)] INFO : Not Loading Instruments
+[08/27/19 23:25:53 +0200 admins-MacBook-Pro.local (46410)] INFO : Scout Agent [2.5.2] Installed
+[08/27/19 23:25:53 +0200 admins-MacBook-Pro.local (46410)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/27/19 23:25:53 +0200 admins-MacBook-Pro.local (46410)] INFO : Deferring agent start. Standing by for first request
+[08/27/19 23:29:58 +0200 admins-MacBook-Pro.local (46632)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/27/19 23:29:58 +0200 admins-MacBook-Pro.local (46632)] INFO : Scout Agent [2.5.2] Initialized
+[08/27/19 23:29:58 +0200 admins-MacBook-Pro.local (46632)] INFO : Not Loading Instruments
+[08/27/19 23:29:58 +0200 admins-MacBook-Pro.local (46632)] INFO : Scout Agent [2.5.2] Installed
+[08/27/19 23:29:58 +0200 admins-MacBook-Pro.local (46632)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/27/19 23:29:58 +0200 admins-MacBook-Pro.local (46632)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 00:58:43 +0200 admins-MacBook-Pro.local (48897)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 00:58:43 +0200 admins-MacBook-Pro.local (48897)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 00:58:43 +0200 admins-MacBook-Pro.local (48897)] INFO : Not Loading Instruments
+[08/28/19 00:58:43 +0200 admins-MacBook-Pro.local (48897)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 00:58:43 +0200 admins-MacBook-Pro.local (48897)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 00:58:43 +0200 admins-MacBook-Pro.local (48897)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 01:04:06 +0200 admins-MacBook-Pro.local (49074)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 01:04:06 +0200 admins-MacBook-Pro.local (49074)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 01:04:06 +0200 admins-MacBook-Pro.local (49074)] INFO : Not Loading Instruments
+[08/28/19 01:04:06 +0200 admins-MacBook-Pro.local (49074)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 01:04:06 +0200 admins-MacBook-Pro.local (49074)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 01:04:06 +0200 admins-MacBook-Pro.local (49074)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 01:15:43 +0200 admins-MacBook-Pro.local (49459)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 01:15:43 +0200 admins-MacBook-Pro.local (49459)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 01:15:43 +0200 admins-MacBook-Pro.local (49459)] INFO : Not Loading Instruments
+[08/28/19 01:15:43 +0200 admins-MacBook-Pro.local (49459)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 01:15:43 +0200 admins-MacBook-Pro.local (49459)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 01:15:43 +0200 admins-MacBook-Pro.local (49459)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 22:37:26 +0200 admins-MacBook-Pro.local (61871)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 22:37:26 +0200 admins-MacBook-Pro.local (61871)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 22:37:26 +0200 admins-MacBook-Pro.local (61871)] INFO : Not Loading Instruments
+[08/28/19 22:37:26 +0200 admins-MacBook-Pro.local (61871)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 22:37:26 +0200 admins-MacBook-Pro.local (61871)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 22:37:26 +0200 admins-MacBook-Pro.local (61871)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 22:39:06 +0200 admins-MacBook-Pro.local (61995)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 22:39:06 +0200 admins-MacBook-Pro.local (61995)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 22:39:06 +0200 admins-MacBook-Pro.local (61995)] INFO : Not Loading Instruments
+[08/28/19 22:39:06 +0200 admins-MacBook-Pro.local (61995)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 22:39:06 +0200 admins-MacBook-Pro.local (61995)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 22:39:06 +0200 admins-MacBook-Pro.local (61995)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 22:46:00 +0200 admins-MacBook-Pro.local (62223)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 22:46:00 +0200 admins-MacBook-Pro.local (62223)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 22:46:00 +0200 admins-MacBook-Pro.local (62223)] INFO : Not Loading Instruments
+[08/28/19 22:46:00 +0200 admins-MacBook-Pro.local (62223)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 22:46:00 +0200 admins-MacBook-Pro.local (62223)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 22:46:00 +0200 admins-MacBook-Pro.local (62223)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 23:05:59 +0200 admins-MacBook-Pro.local (62859)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 23:05:59 +0200 admins-MacBook-Pro.local (62859)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 23:05:59 +0200 admins-MacBook-Pro.local (62859)] INFO : Not Loading Instruments
+[08/28/19 23:05:59 +0200 admins-MacBook-Pro.local (62859)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 23:05:59 +0200 admins-MacBook-Pro.local (62859)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 23:05:59 +0200 admins-MacBook-Pro.local (62859)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 23:22:23 +0200 admins-MacBook-Pro.local (63374)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 23:22:23 +0200 admins-MacBook-Pro.local (63374)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 23:22:23 +0200 admins-MacBook-Pro.local (63374)] INFO : Not Loading Instruments
+[08/28/19 23:22:23 +0200 admins-MacBook-Pro.local (63374)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 23:22:23 +0200 admins-MacBook-Pro.local (63374)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 23:22:23 +0200 admins-MacBook-Pro.local (63374)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 23:30:24 +0200 admins-MacBook-Pro.local (63554)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 23:30:25 +0200 admins-MacBook-Pro.local (63554)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 23:30:25 +0200 admins-MacBook-Pro.local (63554)] INFO : Not Loading Instruments
+[08/28/19 23:30:25 +0200 admins-MacBook-Pro.local (63554)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 23:30:25 +0200 admins-MacBook-Pro.local (63554)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 23:30:25 +0200 admins-MacBook-Pro.local (63554)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 23:34:58 +0200 admins-MacBook-Pro.local (63697)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 23:34:58 +0200 admins-MacBook-Pro.local (63697)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 23:34:58 +0200 admins-MacBook-Pro.local (63697)] INFO : Not Loading Instruments
+[08/28/19 23:34:58 +0200 admins-MacBook-Pro.local (63697)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 23:34:58 +0200 admins-MacBook-Pro.local (63697)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 23:34:58 +0200 admins-MacBook-Pro.local (63697)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 23:43:56 +0200 admins-MacBook-Pro.local (63946)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 23:43:56 +0200 admins-MacBook-Pro.local (63946)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 23:43:56 +0200 admins-MacBook-Pro.local (63946)] INFO : Not Loading Instruments
+[08/28/19 23:43:56 +0200 admins-MacBook-Pro.local (63946)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 23:43:56 +0200 admins-MacBook-Pro.local (63946)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 23:43:56 +0200 admins-MacBook-Pro.local (63946)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 23:47:45 +0200 admins-MacBook-Pro.local (64100)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 23:47:45 +0200 admins-MacBook-Pro.local (64100)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 23:47:45 +0200 admins-MacBook-Pro.local (64100)] INFO : Not Loading Instruments
+[08/28/19 23:47:45 +0200 admins-MacBook-Pro.local (64100)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 23:47:45 +0200 admins-MacBook-Pro.local (64100)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 23:47:45 +0200 admins-MacBook-Pro.local (64100)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 23:49:45 +0200 admins-MacBook-Pro.local (64207)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 23:49:45 +0200 admins-MacBook-Pro.local (64207)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 23:49:45 +0200 admins-MacBook-Pro.local (64207)] INFO : Not Loading Instruments
+[08/28/19 23:49:45 +0200 admins-MacBook-Pro.local (64207)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 23:49:45 +0200 admins-MacBook-Pro.local (64207)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 23:49:45 +0200 admins-MacBook-Pro.local (64207)] INFO : Deferring agent start. Standing by for first request
+[08/28/19 23:50:30 +0200 admins-MacBook-Pro.local (64268)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/28/19 23:50:30 +0200 admins-MacBook-Pro.local (64268)] INFO : Scout Agent [2.5.2] Initialized
+[08/28/19 23:50:30 +0200 admins-MacBook-Pro.local (64268)] INFO : Not Loading Instruments
+[08/28/19 23:50:30 +0200 admins-MacBook-Pro.local (64268)] INFO : Scout Agent [2.5.2] Installed
+[08/28/19 23:50:30 +0200 admins-MacBook-Pro.local (64268)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/28/19 23:50:30 +0200 admins-MacBook-Pro.local (64268)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:23:29 +0200 admins-MacBook-Pro.local (64861)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:23:29 +0200 admins-MacBook-Pro.local (64861)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:23:29 +0200 admins-MacBook-Pro.local (64861)] INFO : Not Loading Instruments
+[08/29/19 00:23:29 +0200 admins-MacBook-Pro.local (64861)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:23:29 +0200 admins-MacBook-Pro.local (64861)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:23:29 +0200 admins-MacBook-Pro.local (64861)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:23:47 +0200 admins-MacBook-Pro.local (64888)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:23:47 +0200 admins-MacBook-Pro.local (64888)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:23:47 +0200 admins-MacBook-Pro.local (64888)] INFO : Not Loading Instruments
+[08/29/19 00:23:47 +0200 admins-MacBook-Pro.local (64888)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:23:47 +0200 admins-MacBook-Pro.local (64888)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:23:47 +0200 admins-MacBook-Pro.local (64888)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:24:47 +0200 admins-MacBook-Pro.local (64926)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:24:47 +0200 admins-MacBook-Pro.local (64926)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:24:47 +0200 admins-MacBook-Pro.local (64926)] INFO : Not Loading Instruments
+[08/29/19 00:24:47 +0200 admins-MacBook-Pro.local (64926)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:24:47 +0200 admins-MacBook-Pro.local (64926)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:24:47 +0200 admins-MacBook-Pro.local (64926)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:25:52 +0200 admins-MacBook-Pro.local (64989)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:25:52 +0200 admins-MacBook-Pro.local (64989)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:25:52 +0200 admins-MacBook-Pro.local (64989)] INFO : Not Loading Instruments
+[08/29/19 00:25:52 +0200 admins-MacBook-Pro.local (64989)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:25:52 +0200 admins-MacBook-Pro.local (64989)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:25:52 +0200 admins-MacBook-Pro.local (64989)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:26:07 +0200 admins-MacBook-Pro.local (65023)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:26:07 +0200 admins-MacBook-Pro.local (65023)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:26:07 +0200 admins-MacBook-Pro.local (65023)] INFO : Not Loading Instruments
+[08/29/19 00:26:07 +0200 admins-MacBook-Pro.local (65023)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:26:07 +0200 admins-MacBook-Pro.local (65023)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:26:07 +0200 admins-MacBook-Pro.local (65023)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:26:22 +0200 admins-MacBook-Pro.local (65070)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:26:22 +0200 admins-MacBook-Pro.local (65070)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:26:22 +0200 admins-MacBook-Pro.local (65070)] INFO : Not Loading Instruments
+[08/29/19 00:26:22 +0200 admins-MacBook-Pro.local (65070)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:26:22 +0200 admins-MacBook-Pro.local (65070)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:26:22 +0200 admins-MacBook-Pro.local (65070)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:26:26 +0200 admins-MacBook-Pro.local (65088)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:26:26 +0200 admins-MacBook-Pro.local (65088)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:26:26 +0200 admins-MacBook-Pro.local (65088)] INFO : Not Loading Instruments
+[08/29/19 00:26:26 +0200 admins-MacBook-Pro.local (65088)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:26:26 +0200 admins-MacBook-Pro.local (65088)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:26:26 +0200 admins-MacBook-Pro.local (65088)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:35:23 +0200 admins-MacBook-Pro.local (65407)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:35:23 +0200 admins-MacBook-Pro.local (65407)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:35:23 +0200 admins-MacBook-Pro.local (65407)] INFO : Not Loading Instruments
+[08/29/19 00:35:23 +0200 admins-MacBook-Pro.local (65407)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:35:23 +0200 admins-MacBook-Pro.local (65407)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:35:23 +0200 admins-MacBook-Pro.local (65407)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:43:36 +0200 admins-MacBook-Pro.local (65681)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:43:36 +0200 admins-MacBook-Pro.local (65681)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:43:36 +0200 admins-MacBook-Pro.local (65681)] INFO : Not Loading Instruments
+[08/29/19 00:43:36 +0200 admins-MacBook-Pro.local (65681)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:43:36 +0200 admins-MacBook-Pro.local (65681)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:43:36 +0200 admins-MacBook-Pro.local (65681)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:44:29 +0200 admins-MacBook-Pro.local (65723)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:44:29 +0200 admins-MacBook-Pro.local (65723)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:44:29 +0200 admins-MacBook-Pro.local (65723)] INFO : Not Loading Instruments
+[08/29/19 00:44:29 +0200 admins-MacBook-Pro.local (65723)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:44:29 +0200 admins-MacBook-Pro.local (65723)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:44:29 +0200 admins-MacBook-Pro.local (65723)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:44:32 +0200 admins-MacBook-Pro.local (65726)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:44:32 +0200 admins-MacBook-Pro.local (65726)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:44:32 +0200 admins-MacBook-Pro.local (65726)] INFO : Not Loading Instruments
+[08/29/19 00:44:32 +0200 admins-MacBook-Pro.local (65726)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:44:32 +0200 admins-MacBook-Pro.local (65726)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:44:32 +0200 admins-MacBook-Pro.local (65726)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:46:36 +0200 admins-MacBook-Pro.local (65954)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:46:36 +0200 admins-MacBook-Pro.local (65954)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:46:36 +0200 admins-MacBook-Pro.local (65954)] INFO : Not Loading Instruments
+[08/29/19 00:46:36 +0200 admins-MacBook-Pro.local (65954)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:46:36 +0200 admins-MacBook-Pro.local (65954)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:46:36 +0200 admins-MacBook-Pro.local (65954)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:51:48 +0200 admins-MacBook-Pro.local (66585)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:51:48 +0200 admins-MacBook-Pro.local (66585)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:51:48 +0200 admins-MacBook-Pro.local (66585)] INFO : Not Loading Instruments
+[08/29/19 00:51:48 +0200 admins-MacBook-Pro.local (66585)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:51:48 +0200 admins-MacBook-Pro.local (66585)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:51:48 +0200 admins-MacBook-Pro.local (66585)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 00:58:00 +0200 admins-MacBook-Pro.local (66746)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 00:58:00 +0200 admins-MacBook-Pro.local (66746)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 00:58:00 +0200 admins-MacBook-Pro.local (66746)] INFO : Not Loading Instruments
+[08/29/19 00:58:00 +0200 admins-MacBook-Pro.local (66746)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 00:58:00 +0200 admins-MacBook-Pro.local (66746)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 00:58:00 +0200 admins-MacBook-Pro.local (66746)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 01:06:44 +0200 admins-MacBook-Pro.local (66968)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 01:06:44 +0200 admins-MacBook-Pro.local (66968)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 01:06:44 +0200 admins-MacBook-Pro.local (66968)] INFO : Not Loading Instruments
+[08/29/19 01:06:44 +0200 admins-MacBook-Pro.local (66968)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 01:06:44 +0200 admins-MacBook-Pro.local (66968)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 01:06:44 +0200 admins-MacBook-Pro.local (66968)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 01:07:04 +0200 admins-MacBook-Pro.local (66997)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 01:07:04 +0200 admins-MacBook-Pro.local (66997)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 01:07:04 +0200 admins-MacBook-Pro.local (66997)] INFO : Not Loading Instruments
+[08/29/19 01:07:04 +0200 admins-MacBook-Pro.local (66997)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 01:07:04 +0200 admins-MacBook-Pro.local (66997)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 01:07:04 +0200 admins-MacBook-Pro.local (66997)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 01:07:20 +0200 admins-MacBook-Pro.local (67036)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 01:07:20 +0200 admins-MacBook-Pro.local (67036)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 01:07:20 +0200 admins-MacBook-Pro.local (67036)] INFO : Not Loading Instruments
+[08/29/19 01:07:20 +0200 admins-MacBook-Pro.local (67036)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 01:07:20 +0200 admins-MacBook-Pro.local (67036)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 01:07:20 +0200 admins-MacBook-Pro.local (67036)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 01:07:22 +0200 admins-MacBook-Pro.local (67049)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 01:07:22 +0200 admins-MacBook-Pro.local (67049)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 01:07:22 +0200 admins-MacBook-Pro.local (67049)] INFO : Not Loading Instruments
+[08/29/19 01:07:22 +0200 admins-MacBook-Pro.local (67049)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 01:07:22 +0200 admins-MacBook-Pro.local (67049)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 01:07:22 +0200 admins-MacBook-Pro.local (67049)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 01:07:43 +0200 admins-MacBook-Pro.local (67100)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 01:07:43 +0200 admins-MacBook-Pro.local (67100)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 01:07:43 +0200 admins-MacBook-Pro.local (67100)] INFO : Not Loading Instruments
+[08/29/19 01:07:43 +0200 admins-MacBook-Pro.local (67100)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 01:07:43 +0200 admins-MacBook-Pro.local (67100)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 01:07:43 +0200 admins-MacBook-Pro.local (67100)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 01:07:50 +0200 admins-MacBook-Pro.local (67129)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 01:07:50 +0200 admins-MacBook-Pro.local (67129)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 01:07:50 +0200 admins-MacBook-Pro.local (67129)] INFO : Not Loading Instruments
+[08/29/19 01:07:50 +0200 admins-MacBook-Pro.local (67129)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 01:07:50 +0200 admins-MacBook-Pro.local (67129)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 01:07:50 +0200 admins-MacBook-Pro.local (67129)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 01:08:11 +0200 admins-MacBook-Pro.local (67176)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 01:08:11 +0200 admins-MacBook-Pro.local (67176)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 01:08:11 +0200 admins-MacBook-Pro.local (67176)] INFO : Not Loading Instruments
+[08/29/19 01:08:11 +0200 admins-MacBook-Pro.local (67176)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 01:08:11 +0200 admins-MacBook-Pro.local (67176)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 01:08:11 +0200 admins-MacBook-Pro.local (67176)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 01:08:20 +0200 admins-MacBook-Pro.local (67207)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 01:08:20 +0200 admins-MacBook-Pro.local (67207)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 01:08:20 +0200 admins-MacBook-Pro.local (67207)] INFO : Not Loading Instruments
+[08/29/19 01:08:20 +0200 admins-MacBook-Pro.local (67207)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 01:08:20 +0200 admins-MacBook-Pro.local (67207)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 01:08:20 +0200 admins-MacBook-Pro.local (67207)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 01:08:30 +0200 admins-MacBook-Pro.local (67237)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 01:08:30 +0200 admins-MacBook-Pro.local (67237)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 01:08:30 +0200 admins-MacBook-Pro.local (67237)] INFO : Not Loading Instruments
+[08/29/19 01:08:30 +0200 admins-MacBook-Pro.local (67237)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 01:08:30 +0200 admins-MacBook-Pro.local (67237)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 01:08:30 +0200 admins-MacBook-Pro.local (67237)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 01:08:47 +0200 admins-MacBook-Pro.local (67269)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 01:08:47 +0200 admins-MacBook-Pro.local (67269)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 01:08:47 +0200 admins-MacBook-Pro.local (67269)] INFO : Not Loading Instruments
+[08/29/19 01:08:47 +0200 admins-MacBook-Pro.local (67269)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 01:08:47 +0200 admins-MacBook-Pro.local (67269)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 01:08:47 +0200 admins-MacBook-Pro.local (67269)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 01:09:53 +0200 admins-MacBook-Pro.local (67355)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 01:09:53 +0200 admins-MacBook-Pro.local (67355)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 01:09:53 +0200 admins-MacBook-Pro.local (67355)] INFO : Not Loading Instruments
+[08/29/19 01:09:53 +0200 admins-MacBook-Pro.local (67355)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 01:09:53 +0200 admins-MacBook-Pro.local (67355)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 01:09:53 +0200 admins-MacBook-Pro.local (67355)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 02:28:37 +0200 admins-MacBook-Pro.local (69561)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 02:28:37 +0200 admins-MacBook-Pro.local (69561)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 02:28:37 +0200 admins-MacBook-Pro.local (69561)] INFO : Not Loading Instruments
+[08/29/19 02:28:37 +0200 admins-MacBook-Pro.local (69561)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 02:28:37 +0200 admins-MacBook-Pro.local (69561)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 02:28:37 +0200 admins-MacBook-Pro.local (69561)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 02:28:44 +0200 admins-MacBook-Pro.local (69593)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 02:28:44 +0200 admins-MacBook-Pro.local (69593)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 02:28:44 +0200 admins-MacBook-Pro.local (69593)] INFO : Not Loading Instruments
+[08/29/19 02:28:44 +0200 admins-MacBook-Pro.local (69593)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 02:28:44 +0200 admins-MacBook-Pro.local (69593)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 02:28:44 +0200 admins-MacBook-Pro.local (69593)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 02:28:50 +0200 admins-MacBook-Pro.local (69617)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 02:28:50 +0200 admins-MacBook-Pro.local (69617)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 02:28:50 +0200 admins-MacBook-Pro.local (69617)] INFO : Not Loading Instruments
+[08/29/19 02:28:50 +0200 admins-MacBook-Pro.local (69617)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 02:28:50 +0200 admins-MacBook-Pro.local (69617)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 02:28:50 +0200 admins-MacBook-Pro.local (69617)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 02:29:37 +0200 admins-MacBook-Pro.local (69665)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 02:29:37 +0200 admins-MacBook-Pro.local (69665)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 02:29:37 +0200 admins-MacBook-Pro.local (69665)] INFO : Not Loading Instruments
+[08/29/19 02:29:37 +0200 admins-MacBook-Pro.local (69665)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 02:29:37 +0200 admins-MacBook-Pro.local (69665)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 02:29:37 +0200 admins-MacBook-Pro.local (69665)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 02:29:43 +0200 admins-MacBook-Pro.local (69693)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 02:29:43 +0200 admins-MacBook-Pro.local (69693)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 02:29:43 +0200 admins-MacBook-Pro.local (69693)] INFO : Not Loading Instruments
+[08/29/19 02:29:43 +0200 admins-MacBook-Pro.local (69693)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 02:29:43 +0200 admins-MacBook-Pro.local (69693)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 02:29:43 +0200 admins-MacBook-Pro.local (69693)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 02:30:09 +0200 admins-MacBook-Pro.local (69728)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 02:30:09 +0200 admins-MacBook-Pro.local (69728)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 02:30:09 +0200 admins-MacBook-Pro.local (69728)] INFO : Not Loading Instruments
+[08/29/19 02:30:09 +0200 admins-MacBook-Pro.local (69728)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 02:30:09 +0200 admins-MacBook-Pro.local (69728)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 02:30:09 +0200 admins-MacBook-Pro.local (69728)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 02:30:23 +0200 admins-MacBook-Pro.local (69757)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 02:30:23 +0200 admins-MacBook-Pro.local (69757)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 02:30:23 +0200 admins-MacBook-Pro.local (69757)] INFO : Not Loading Instruments
+[08/29/19 02:30:23 +0200 admins-MacBook-Pro.local (69757)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 02:30:23 +0200 admins-MacBook-Pro.local (69757)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 02:30:23 +0200 admins-MacBook-Pro.local (69757)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 02:30:33 +0200 admins-MacBook-Pro.local (69798)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 02:30:33 +0200 admins-MacBook-Pro.local (69798)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 02:30:33 +0200 admins-MacBook-Pro.local (69798)] INFO : Not Loading Instruments
+[08/29/19 02:30:33 +0200 admins-MacBook-Pro.local (69798)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 02:30:33 +0200 admins-MacBook-Pro.local (69798)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 02:30:33 +0200 admins-MacBook-Pro.local (69798)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 02:34:08 +0200 admins-MacBook-Pro.local (69884)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 02:34:08 +0200 admins-MacBook-Pro.local (69884)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 02:34:08 +0200 admins-MacBook-Pro.local (69884)] INFO : Not Loading Instruments
+[08/29/19 02:34:08 +0200 admins-MacBook-Pro.local (69884)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 02:34:08 +0200 admins-MacBook-Pro.local (69884)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 02:34:08 +0200 admins-MacBook-Pro.local (69884)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 21:35:09 +0200 admins-MacBook-Pro.local (75346)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 21:35:09 +0200 admins-MacBook-Pro.local (75346)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 21:35:09 +0200 admins-MacBook-Pro.local (75346)] INFO : Not Loading Instruments
+[08/29/19 21:35:09 +0200 admins-MacBook-Pro.local (75346)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 21:35:09 +0200 admins-MacBook-Pro.local (75346)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 21:35:09 +0200 admins-MacBook-Pro.local (75346)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 21:38:17 +0200 admins-MacBook-Pro.local (75570)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 21:38:17 +0200 admins-MacBook-Pro.local (75570)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 21:38:17 +0200 admins-MacBook-Pro.local (75570)] INFO : Not Loading Instruments
+[08/29/19 21:38:17 +0200 admins-MacBook-Pro.local (75570)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 21:38:17 +0200 admins-MacBook-Pro.local (75570)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 21:38:17 +0200 admins-MacBook-Pro.local (75570)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 21:47:21 +0200 admins-MacBook-Pro.local (76000)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 21:47:21 +0200 admins-MacBook-Pro.local (76000)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 21:47:21 +0200 admins-MacBook-Pro.local (76000)] INFO : Not Loading Instruments
+[08/29/19 21:47:21 +0200 admins-MacBook-Pro.local (76000)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 21:47:21 +0200 admins-MacBook-Pro.local (76000)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 21:47:21 +0200 admins-MacBook-Pro.local (76000)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 21:52:29 +0200 admins-MacBook-Pro.local (76193)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 21:52:29 +0200 admins-MacBook-Pro.local (76193)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 21:52:29 +0200 admins-MacBook-Pro.local (76193)] INFO : Not Loading Instruments
+[08/29/19 21:52:29 +0200 admins-MacBook-Pro.local (76193)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 21:52:29 +0200 admins-MacBook-Pro.local (76193)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 21:52:29 +0200 admins-MacBook-Pro.local (76193)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 21:52:38 +0200 admins-MacBook-Pro.local (76226)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 21:52:38 +0200 admins-MacBook-Pro.local (76226)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 21:52:38 +0200 admins-MacBook-Pro.local (76226)] INFO : Not Loading Instruments
+[08/29/19 21:52:38 +0200 admins-MacBook-Pro.local (76226)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 21:52:38 +0200 admins-MacBook-Pro.local (76226)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 21:52:38 +0200 admins-MacBook-Pro.local (76226)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 21:54:14 +0200 admins-MacBook-Pro.local (76293)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 21:54:14 +0200 admins-MacBook-Pro.local (76293)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 21:54:14 +0200 admins-MacBook-Pro.local (76293)] INFO : Not Loading Instruments
+[08/29/19 21:54:14 +0200 admins-MacBook-Pro.local (76293)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 21:54:14 +0200 admins-MacBook-Pro.local (76293)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 21:54:14 +0200 admins-MacBook-Pro.local (76293)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 21:54:26 +0200 admins-MacBook-Pro.local (76324)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 21:54:26 +0200 admins-MacBook-Pro.local (76324)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 21:54:26 +0200 admins-MacBook-Pro.local (76324)] INFO : Not Loading Instruments
+[08/29/19 21:54:26 +0200 admins-MacBook-Pro.local (76324)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 21:54:26 +0200 admins-MacBook-Pro.local (76324)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 21:54:26 +0200 admins-MacBook-Pro.local (76324)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 21:55:01 +0200 admins-MacBook-Pro.local (76374)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 21:55:01 +0200 admins-MacBook-Pro.local (76374)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 21:55:01 +0200 admins-MacBook-Pro.local (76374)] INFO : Not Loading Instruments
+[08/29/19 21:55:01 +0200 admins-MacBook-Pro.local (76374)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 21:55:01 +0200 admins-MacBook-Pro.local (76374)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 21:55:01 +0200 admins-MacBook-Pro.local (76374)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 21:57:13 +0200 admins-MacBook-Pro.local (76496)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 21:57:13 +0200 admins-MacBook-Pro.local (76496)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 21:57:13 +0200 admins-MacBook-Pro.local (76496)] INFO : Not Loading Instruments
+[08/29/19 21:57:13 +0200 admins-MacBook-Pro.local (76496)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 21:57:13 +0200 admins-MacBook-Pro.local (76496)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 21:57:13 +0200 admins-MacBook-Pro.local (76496)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 22:06:09 +0200 admins-MacBook-Pro.local (77049)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 22:06:09 +0200 admins-MacBook-Pro.local (77049)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 22:06:09 +0200 admins-MacBook-Pro.local (77049)] INFO : Not Loading Instruments
+[08/29/19 22:06:09 +0200 admins-MacBook-Pro.local (77049)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 22:06:09 +0200 admins-MacBook-Pro.local (77049)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 22:06:09 +0200 admins-MacBook-Pro.local (77049)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 22:19:02 +0200 admins-MacBook-Pro.local (77387)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 22:19:02 +0200 admins-MacBook-Pro.local (77387)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 22:19:02 +0200 admins-MacBook-Pro.local (77387)] INFO : Not Loading Instruments
+[08/29/19 22:19:02 +0200 admins-MacBook-Pro.local (77387)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 22:19:03 +0200 admins-MacBook-Pro.local (77387)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 22:19:03 +0200 admins-MacBook-Pro.local (77387)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 23:41:03 +0200 admins-MacBook-Pro.local (79848)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 23:41:03 +0200 admins-MacBook-Pro.local (79848)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 23:41:03 +0200 admins-MacBook-Pro.local (79848)] INFO : Not Loading Instruments
+[08/29/19 23:41:03 +0200 admins-MacBook-Pro.local (79848)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 23:41:03 +0200 admins-MacBook-Pro.local (79848)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 23:41:03 +0200 admins-MacBook-Pro.local (79848)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 23:41:22 +0200 admins-MacBook-Pro.local (79893)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 23:41:22 +0200 admins-MacBook-Pro.local (79893)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 23:41:22 +0200 admins-MacBook-Pro.local (79893)] INFO : Not Loading Instruments
+[08/29/19 23:41:22 +0200 admins-MacBook-Pro.local (79893)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 23:41:22 +0200 admins-MacBook-Pro.local (79893)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 23:41:22 +0200 admins-MacBook-Pro.local (79893)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 23:55:53 +0200 admins-MacBook-Pro.local (80443)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 23:55:53 +0200 admins-MacBook-Pro.local (80443)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 23:55:53 +0200 admins-MacBook-Pro.local (80443)] INFO : Not Loading Instruments
+[08/29/19 23:55:53 +0200 admins-MacBook-Pro.local (80443)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 23:55:53 +0200 admins-MacBook-Pro.local (80443)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 23:55:53 +0200 admins-MacBook-Pro.local (80443)] INFO : Deferring agent start. Standing by for first request
+[08/29/19 23:57:31 +0200 admins-MacBook-Pro.local (80573)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/29/19 23:57:31 +0200 admins-MacBook-Pro.local (80573)] INFO : Scout Agent [2.5.2] Initialized
+[08/29/19 23:57:31 +0200 admins-MacBook-Pro.local (80573)] INFO : Not Loading Instruments
+[08/29/19 23:57:31 +0200 admins-MacBook-Pro.local (80573)] INFO : Scout Agent [2.5.2] Installed
+[08/29/19 23:57:31 +0200 admins-MacBook-Pro.local (80573)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/29/19 23:57:31 +0200 admins-MacBook-Pro.local (80573)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:01:05 +0200 admins-MacBook-Pro.local (80808)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:01:05 +0200 admins-MacBook-Pro.local (80808)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:01:05 +0200 admins-MacBook-Pro.local (80808)] INFO : Not Loading Instruments
+[08/30/19 00:01:05 +0200 admins-MacBook-Pro.local (80808)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:01:05 +0200 admins-MacBook-Pro.local (80808)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:01:05 +0200 admins-MacBook-Pro.local (80808)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:01:22 +0200 admins-MacBook-Pro.local (80840)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:01:22 +0200 admins-MacBook-Pro.local (80840)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:01:22 +0200 admins-MacBook-Pro.local (80840)] INFO : Not Loading Instruments
+[08/30/19 00:01:22 +0200 admins-MacBook-Pro.local (80840)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:01:22 +0200 admins-MacBook-Pro.local (80840)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:01:22 +0200 admins-MacBook-Pro.local (80840)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:02:18 +0200 admins-MacBook-Pro.local (80879)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:02:18 +0200 admins-MacBook-Pro.local (80879)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:02:18 +0200 admins-MacBook-Pro.local (80879)] INFO : Not Loading Instruments
+[08/30/19 00:02:18 +0200 admins-MacBook-Pro.local (80879)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:02:18 +0200 admins-MacBook-Pro.local (80879)] INFO : Monitoring isn't enabled for the [production] environment.
+[08/30/19 00:02:18 +0200 admins-MacBook-Pro.local (80879)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:03:22 +0200 admins-MacBook-Pro.local (80923)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:03:22 +0200 admins-MacBook-Pro.local (80923)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:03:22 +0200 admins-MacBook-Pro.local (80923)] INFO : Not Loading Instruments
+[08/30/19 00:03:22 +0200 admins-MacBook-Pro.local (80923)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:03:22 +0200 admins-MacBook-Pro.local (80923)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:03:22 +0200 admins-MacBook-Pro.local (80923)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:04:24 +0200 admins-MacBook-Pro.local (81082)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:04:24 +0200 admins-MacBook-Pro.local (81082)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:04:24 +0200 admins-MacBook-Pro.local (81082)] INFO : Not Loading Instruments
+[08/30/19 00:04:24 +0200 admins-MacBook-Pro.local (81082)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:04:24 +0200 admins-MacBook-Pro.local (81082)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:04:24 +0200 admins-MacBook-Pro.local (81082)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:04:50 +0200 admins-MacBook-Pro.local (81166)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:04:50 +0200 admins-MacBook-Pro.local (81166)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:04:50 +0200 admins-MacBook-Pro.local (81166)] INFO : Not Loading Instruments
+[08/30/19 00:04:50 +0200 admins-MacBook-Pro.local (81166)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:04:50 +0200 admins-MacBook-Pro.local (81166)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:04:50 +0200 admins-MacBook-Pro.local (81166)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:05:44 +0200 admins-MacBook-Pro.local (81222)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:05:44 +0200 admins-MacBook-Pro.local (81222)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:05:44 +0200 admins-MacBook-Pro.local (81222)] INFO : Not Loading Instruments
+[08/30/19 00:05:44 +0200 admins-MacBook-Pro.local (81222)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:05:44 +0200 admins-MacBook-Pro.local (81222)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:05:44 +0200 admins-MacBook-Pro.local (81222)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:06:38 +0200 admins-MacBook-Pro.local (83452)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:06:38 +0200 admins-MacBook-Pro.local (83452)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:06:38 +0200 admins-MacBook-Pro.local (83452)] INFO : Not Loading Instruments
+[08/30/19 00:06:38 +0200 admins-MacBook-Pro.local (83452)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:06:38 +0200 admins-MacBook-Pro.local (83452)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:06:38 +0200 admins-MacBook-Pro.local (83452)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:07:41 +0200 admins-MacBook-Pro.local (89121)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:07:41 +0200 admins-MacBook-Pro.local (89121)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:07:41 +0200 admins-MacBook-Pro.local (89121)] INFO : Not Loading Instruments
+[08/30/19 00:07:41 +0200 admins-MacBook-Pro.local (89121)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:07:41 +0200 admins-MacBook-Pro.local (89121)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:07:41 +0200 admins-MacBook-Pro.local (89121)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:07:58 +0200 admins-MacBook-Pro.local (89162)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:07:58 +0200 admins-MacBook-Pro.local (89162)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:07:58 +0200 admins-MacBook-Pro.local (89162)] INFO : Not Loading Instruments
+[08/30/19 00:07:58 +0200 admins-MacBook-Pro.local (89162)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:07:58 +0200 admins-MacBook-Pro.local (89162)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:07:58 +0200 admins-MacBook-Pro.local (89162)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:09:48 +0200 admins-MacBook-Pro.local (89281)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:09:48 +0200 admins-MacBook-Pro.local (89281)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:09:48 +0200 admins-MacBook-Pro.local (89281)] INFO : Not Loading Instruments
+[08/30/19 00:09:48 +0200 admins-MacBook-Pro.local (89281)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:09:48 +0200 admins-MacBook-Pro.local (89281)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:09:48 +0200 admins-MacBook-Pro.local (89281)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:10:02 +0200 admins-MacBook-Pro.local (89307)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:10:02 +0200 admins-MacBook-Pro.local (89307)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:10:02 +0200 admins-MacBook-Pro.local (89307)] INFO : Not Loading Instruments
+[08/30/19 00:10:02 +0200 admins-MacBook-Pro.local (89307)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:10:02 +0200 admins-MacBook-Pro.local (89307)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:10:02 +0200 admins-MacBook-Pro.local (89307)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:16:30 +0200 admins-MacBook-Pro.local (89835)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:16:30 +0200 admins-MacBook-Pro.local (89835)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:16:30 +0200 admins-MacBook-Pro.local (89835)] INFO : Not Loading Instruments
+[08/30/19 00:16:30 +0200 admins-MacBook-Pro.local (89835)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:16:30 +0200 admins-MacBook-Pro.local (89835)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:16:30 +0200 admins-MacBook-Pro.local (89835)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:17:26 +0200 admins-MacBook-Pro.local (89883)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:17:26 +0200 admins-MacBook-Pro.local (89883)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:17:26 +0200 admins-MacBook-Pro.local (89883)] INFO : Not Loading Instruments
+[08/30/19 00:17:26 +0200 admins-MacBook-Pro.local (89883)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:17:26 +0200 admins-MacBook-Pro.local (89883)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:17:26 +0200 admins-MacBook-Pro.local (89883)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:18:18 +0200 admins-MacBook-Pro.local (89919)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:18:18 +0200 admins-MacBook-Pro.local (89919)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:18:18 +0200 admins-MacBook-Pro.local (89919)] INFO : Not Loading Instruments
+[08/30/19 00:18:18 +0200 admins-MacBook-Pro.local (89919)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:18:18 +0200 admins-MacBook-Pro.local (89919)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:18:18 +0200 admins-MacBook-Pro.local (89919)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:18:31 +0200 admins-MacBook-Pro.local (89963)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:18:31 +0200 admins-MacBook-Pro.local (89963)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:18:31 +0200 admins-MacBook-Pro.local (89963)] INFO : Not Loading Instruments
+[08/30/19 00:18:31 +0200 admins-MacBook-Pro.local (89963)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:18:31 +0200 admins-MacBook-Pro.local (89963)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:18:31 +0200 admins-MacBook-Pro.local (89963)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:18:46 +0200 admins-MacBook-Pro.local (89991)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:18:46 +0200 admins-MacBook-Pro.local (89991)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:18:46 +0200 admins-MacBook-Pro.local (89991)] INFO : Not Loading Instruments
+[08/30/19 00:18:46 +0200 admins-MacBook-Pro.local (89991)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:18:46 +0200 admins-MacBook-Pro.local (89991)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:18:46 +0200 admins-MacBook-Pro.local (89991)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:18:56 +0200 admins-MacBook-Pro.local (90016)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:18:56 +0200 admins-MacBook-Pro.local (90016)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:18:56 +0200 admins-MacBook-Pro.local (90016)] INFO : Not Loading Instruments
+[08/30/19 00:18:56 +0200 admins-MacBook-Pro.local (90016)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:18:56 +0200 admins-MacBook-Pro.local (90016)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:18:56 +0200 admins-MacBook-Pro.local (90016)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:18:57 +0200 admins-MacBook-Pro.local (90020)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:18:57 +0200 admins-MacBook-Pro.local (90020)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:18:57 +0200 admins-MacBook-Pro.local (90020)] INFO : Not Loading Instruments
+[08/30/19 00:18:57 +0200 admins-MacBook-Pro.local (90020)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:18:57 +0200 admins-MacBook-Pro.local (90020)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:18:57 +0200 admins-MacBook-Pro.local (90020)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:21:11 +0200 admins-MacBook-Pro.local (90165)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:21:11 +0200 admins-MacBook-Pro.local (90165)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:21:11 +0200 admins-MacBook-Pro.local (90165)] INFO : Not Loading Instruments
+[08/30/19 00:21:11 +0200 admins-MacBook-Pro.local (90165)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:21:11 +0200 admins-MacBook-Pro.local (90165)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:21:11 +0200 admins-MacBook-Pro.local (90165)] INFO : Deferring agent start. Standing by for first request
+[08/30/19 00:21:18 +0200 admins-MacBook-Pro.local (90208)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/30/19 00:21:18 +0200 admins-MacBook-Pro.local (90208)] INFO : Scout Agent [2.5.2] Initialized
+[08/30/19 00:21:18 +0200 admins-MacBook-Pro.local (90208)] INFO : Not Loading Instruments
+[08/30/19 00:21:18 +0200 admins-MacBook-Pro.local (90208)] INFO : Scout Agent [2.5.2] Installed
+[08/30/19 00:21:18 +0200 admins-MacBook-Pro.local (90208)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/30/19 00:21:18 +0200 admins-MacBook-Pro.local (90208)] INFO : Deferring agent start. Standing by for first request
+[08/31/19 12:19:21 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1515)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/31/19 12:19:21 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1515)] INFO : Scout Agent [2.5.2] Initialized
+[08/31/19 12:19:21 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1515)] INFO : Not Loading Instruments
+[08/31/19 12:19:21 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1515)] INFO : Scout Agent [2.5.2] Installed
+[08/31/19 12:19:21 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1515)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/31/19 12:19:21 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1515)] INFO : Deferring agent start. Standing by for first request
+[08/31/19 12:33:06 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1792)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/31/19 12:33:06 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1792)] INFO : Scout Agent [2.5.2] Initialized
+[08/31/19 12:33:06 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1792)] INFO : Not Loading Instruments
+[08/31/19 12:33:06 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1792)] INFO : Scout Agent [2.5.2] Installed
+[08/31/19 12:33:06 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1792)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/31/19 12:33:06 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1792)] INFO : Deferring agent start. Standing by for first request
+[08/31/19 12:34:09 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1893)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/31/19 12:34:09 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1893)] INFO : Scout Agent [2.5.2] Initialized
+[08/31/19 12:34:09 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1893)] INFO : Not Loading Instruments
+[08/31/19 12:34:09 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1893)] INFO : Scout Agent [2.5.2] Installed
+[08/31/19 12:34:09 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1893)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/31/19 12:34:09 +0530 vivek-HP-Pavilion-g6-Notebook-PC (1893)] INFO : Deferring agent start. Standing by for first request
+[08/31/19 13:02:48 +0530 vivek-HP-Pavilion-g6-Notebook-PC (2696)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/31/19 13:02:48 +0530 vivek-HP-Pavilion-g6-Notebook-PC (2696)] INFO : Scout Agent [2.5.2] Initialized
+[08/31/19 13:02:48 +0530 vivek-HP-Pavilion-g6-Notebook-PC (2696)] INFO : Not Loading Instruments
+[08/31/19 13:02:48 +0530 vivek-HP-Pavilion-g6-Notebook-PC (2696)] INFO : Scout Agent [2.5.2] Installed
+[08/31/19 13:02:48 +0530 vivek-HP-Pavilion-g6-Notebook-PC (2696)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/31/19 13:02:48 +0530 vivek-HP-Pavilion-g6-Notebook-PC (2696)] INFO : Deferring agent start. Standing by for first request
+[08/31/19 13:08:18 +0530 vivek-HP-Pavilion-g6-Notebook-PC (3532)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/31/19 13:08:18 +0530 vivek-HP-Pavilion-g6-Notebook-PC (3532)] INFO : Scout Agent [2.5.2] Initialized
+[08/31/19 13:08:18 +0530 vivek-HP-Pavilion-g6-Notebook-PC (3532)] INFO : Not Loading Instruments
+[08/31/19 13:08:18 +0530 vivek-HP-Pavilion-g6-Notebook-PC (3532)] INFO : Scout Agent [2.5.2] Installed
+[08/31/19 13:08:18 +0530 vivek-HP-Pavilion-g6-Notebook-PC (3532)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/31/19 13:08:18 +0530 vivek-HP-Pavilion-g6-Notebook-PC (3532)] INFO : Deferring agent start. Standing by for first request
+[08/31/19 13:18:31 +0530 vivek-HP-Pavilion-g6-Notebook-PC (3931)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/31/19 13:18:31 +0530 vivek-HP-Pavilion-g6-Notebook-PC (3931)] INFO : Scout Agent [2.5.2] Initialized
+[08/31/19 13:18:31 +0530 vivek-HP-Pavilion-g6-Notebook-PC (3931)] INFO : Not Loading Instruments
+[08/31/19 13:18:31 +0530 vivek-HP-Pavilion-g6-Notebook-PC (3931)] INFO : Scout Agent [2.5.2] Installed
+[08/31/19 13:18:31 +0530 vivek-HP-Pavilion-g6-Notebook-PC (3931)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/31/19 13:18:31 +0530 vivek-HP-Pavilion-g6-Notebook-PC (3931)] INFO : Deferring agent start. Standing by for first request
+[08/31/19 13:20:22 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4023)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/31/19 13:20:22 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4023)] INFO : Scout Agent [2.5.2] Initialized
+[08/31/19 13:20:22 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4023)] INFO : Not Loading Instruments
+[08/31/19 13:20:22 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4023)] INFO : Scout Agent [2.5.2] Installed
+[08/31/19 13:20:22 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4023)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/31/19 13:20:22 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4023)] INFO : Deferring agent start. Standing by for first request
+[08/31/19 13:21:11 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4157)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/31/19 13:21:11 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4157)] INFO : Scout Agent [2.5.2] Initialized
+[08/31/19 13:21:11 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4157)] INFO : Not Loading Instruments
+[08/31/19 13:21:11 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4157)] INFO : Scout Agent [2.5.2] Installed
+[08/31/19 13:21:11 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4157)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/31/19 13:21:11 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4157)] INFO : Deferring agent start. Standing by for first request
+[08/31/19 13:21:52 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4211)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/31/19 13:21:52 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4211)] INFO : Scout Agent [2.5.2] Initialized
+[08/31/19 13:21:52 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4211)] INFO : Not Loading Instruments
+[08/31/19 13:21:52 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4211)] INFO : Scout Agent [2.5.2] Installed
+[08/31/19 13:21:52 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4211)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/31/19 13:21:52 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4211)] INFO : Deferring agent start. Standing by for first request
+[08/31/19 13:22:11 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4244)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/31/19 13:22:11 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4244)] INFO : Scout Agent [2.5.2] Initialized
+[08/31/19 13:22:11 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4244)] INFO : Not Loading Instruments
+[08/31/19 13:22:11 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4244)] INFO : Scout Agent [2.5.2] Installed
+[08/31/19 13:22:11 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4244)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/31/19 13:22:11 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4244)] INFO : Deferring agent start. Standing by for first request
+[08/31/19 13:22:42 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4289)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/31/19 13:22:42 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4289)] INFO : Scout Agent [2.5.2] Initialized
+[08/31/19 13:22:42 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4289)] INFO : Not Loading Instruments
+[08/31/19 13:22:42 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4289)] INFO : Scout Agent [2.5.2] Installed
+[08/31/19 13:22:42 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4289)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/31/19 13:22:42 +0530 vivek-HP-Pavilion-g6-Notebook-PC (4289)] INFO : Deferring agent start. Standing by for first request
+[08/31/19 14:33:15 +0530 vivek-HP-Pavilion-g6-Notebook-PC (7655)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[08/31/19 14:33:15 +0530 vivek-HP-Pavilion-g6-Notebook-PC (7655)] INFO : Scout Agent [2.5.2] Initialized
+[08/31/19 14:33:15 +0530 vivek-HP-Pavilion-g6-Notebook-PC (7655)] INFO : Not Loading Instruments
+[08/31/19 14:33:15 +0530 vivek-HP-Pavilion-g6-Notebook-PC (7655)] INFO : Scout Agent [2.5.2] Installed
+[08/31/19 14:33:15 +0530 vivek-HP-Pavilion-g6-Notebook-PC (7655)] INFO : Monitoring isn't enabled for the [development] environment.
+[08/31/19 14:33:15 +0530 vivek-HP-Pavilion-g6-Notebook-PC (7655)] INFO : Deferring agent start. Standing by for first request

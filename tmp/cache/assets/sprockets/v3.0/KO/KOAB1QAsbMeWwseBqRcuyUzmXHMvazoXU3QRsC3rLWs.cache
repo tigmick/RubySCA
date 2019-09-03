@@ -1,0 +1,30 @@
+I"_(function() {
+  $(document).ready(function() {
+    var player;
+    if ($('body').scrollTop() > 145) {
+      $('.meta-nav.-fixed').addClass('-open');
+    } else {
+      $('.meta-nav.-fixed').removeClass('-open');
+    }
+    $(window).on('scroll', function() {
+      if ($('body').scrollTop() > 145) {
+        return $('.meta-nav.-fixed').addClass('-open');
+      } else {
+        return $('.meta-nav.-fixed').removeClass('-open');
+      }
+    });
+    $('[data-behaviour="scroll"]').on('click', function(e) {
+      var targetOffset;
+      targetOffset = $($(e.currentTarget).attr('href')).offset().top;
+      e.preventDefault();
+      return $('html, body').animate({
+        scrollTop: targetOffset - 80
+      });
+    });
+    return player = new Plyr('#player', {
+      controls: ['play', 'progress', 'current-time', 'mute', 'volume']
+    });
+  });
+
+}).call(this);
+:ET
