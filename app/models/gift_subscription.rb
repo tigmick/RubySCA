@@ -24,6 +24,8 @@ class GiftSubscription < ApplicationRecord
   after_initialize :setup_subscription, if: -> (gs) { !gs.subscription }
   after_save :save_subscription, if: -> (gs) { !gs.subscription.changed? }
 
+  attr_accessor :charge_object
+
   validates :plan_id, presence: true
 
   validates :giver_given_name, presence: true
@@ -128,6 +130,7 @@ class GiftSubscription < ApplicationRecord
       description: "Gift Subscription: #{ self.product_name }"
     })
     self.stripe_id = charge.id
+    self.charge_object = charge
 
     if !charge['failure_code']
       self.charged_at = Time.zone.now
