@@ -33,7 +33,7 @@ class Subscription < ApplicationRecord
 
   after_validation :sync_stripe_subscription, :set_status
   before_validation :set_ended_at_for_fixed, if: -> (s) { s.is_fixed? && s.duration_months.present? }
-  
+
   before_destroy :orphan_invoices
 
   scope :paid, -> { where(status: %w(trialing active)) }
@@ -45,6 +45,8 @@ class Subscription < ApplicationRecord
   scope :needs_shipping, -> { active.includes_print }
   scope :churning, -> { is_stripe.delinquent }
   scope :churned, -> { where(status: %w(unpaid canceled)) }
+
+  attr_accessor :latest_invoice
 
   def update_from_stripe!
     return unless self.stripe_id && self.stripe_subscription.present?
@@ -81,7 +83,7 @@ class Subscription < ApplicationRecord
     return unless subsc.present?
 
     subsc.metadata = {}
-    
+
     begin
       subsc.save
     rescue Stripe::InvalidRequestError
@@ -93,7 +95,7 @@ class Subscription < ApplicationRecord
     return if !self.is_stripe? # return if non-stripe sub
     return if self.product.is_active? # return if normal already
     return if !(self.status.try(:downcase) == 'active') # return if not active
-    
+
     if self.digital_only?
       change_product_to! :digital, true
     else
@@ -291,13 +293,13 @@ class Subscription < ApplicationRecord
 
   def cancel_subscription_now! # affects stripe
     str_sub = self.stripe_subscription
-    
+
     begin
       str_sub.delete
     rescue Stripe::InvalidRequestError
       return
     end
-    
+
     update_from_stripe!
   end
 
@@ -406,6 +408,7 @@ class Subscription < ApplicationRecord
       )
     end
     self.stripe_id = subscription.id
+    self.latest_invoice = subscription.latest_invoice
     self.current_period_ends_at = Time.zone.at(subscription['current_period_end'])
     self.status = subscription['status']
   end
