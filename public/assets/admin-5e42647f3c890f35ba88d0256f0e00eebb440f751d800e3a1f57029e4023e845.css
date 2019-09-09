@@ -1,0 +1,3595 @@
+@charset "UTF-8";
+/* line 12, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_variables.sass */
+:root {
+  --t5: 1.4rem;
+  --t4: 1.7rem;
+  --t3: 2.2rem;
+  --t2: 2.8rem;
+  --t1: 3.6rem;
+  --contained: 1360px;
+  --max: 1500px;
+  --baseline: 1rem;
+  --gutter: 4rem;
+  --default: #fafafa;
+  --white: #ffffff;
+  --faint: #f5f5f5;
+  --grey: #999;
+  --black: #070707;
+  --blue: #4000FF;
+  --red: #FC4604;
+  --green: #A7FC04;
+  --yellow: #FCFC04;
+  --blue-dark: #2F00BF;
+}
+@media screen and (min-width: 720px) {
+  /* line 12, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_variables.sass */
+  :root {
+    --t2: 3.9rem;
+    --t1: 6.0rem;
+  }
+}
+
+@font-face {
+  font-family: "Zirkon";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/GT-Zirkon-Light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Zirkon";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/GT-Zirkon-Light-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Zirkon";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/GT-Zirkon-Book.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Zirkon";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/GT-Zirkon-Book-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Zirkon";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/GT-Zirkon-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Zirkon";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/GT-Zirkon-Regular-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Zirkon";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/GT-Zirkon-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Zirkon";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/GT-Zirkon-Medium-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Zirkon";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/GT-Zirkon-Bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Zirkon";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/GT-Zirkon-Bold-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Zirkon";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/GT-Zirkon-Black.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Zirkon";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/GT-Zirkon-Black-Italic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Suisse Works";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/SuisseWorks-Book-WebXL.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Suisse Works";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/SuisseWorks-BookItalic-WebXL.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Suisse Works";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/SuisseWorks-Bold-WebXL.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Suisse Works";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/SuisseWorks-BoldItalic-WebXL.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "America Mono";
+  src: url("https://d1trxack2ykyus.cloudfront.net/fonts/GT-America-Mono-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.container-fluid,
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+/* line 8, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.row {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-flex: 0;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -2rem;
+  margin-left: -2rem;
+}
+
+/* line 26, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.row.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  flex-direction: row-reverse;
+}
+
+/* line 33, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col.reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  flex-direction: column-reverse;
+}
+
+/* line 41, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col.flex.-sticky {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+          align-items: flex-end;
+}
+/* line 46, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col.flex.-sticky .content {
+  padding-top: var(--gutter);
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: var(--gutter);
+}
+
+/* line 55, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs,
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-offset-0,
+.col-xs-offset-1,
+.col-xs-offset-2,
+.col-xs-offset-3,
+.col-xs-offset-4,
+.col-xs-offset-5,
+.col-xs-offset-6,
+.col-xs-offset-7,
+.col-xs-offset-8,
+.col-xs-offset-9,
+.col-xs-offset-10,
+.col-xs-offset-11,
+.col-xs-offset-12 {
+  position: relative;
+  box-sizing: border-box;
+  -webkit-box-flex: 0;
+  flex: 0 0 auto;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+/* line 90, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-basis: 0;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 720px) {
+  /* line 100, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-xs-0 {
+    display: none !important;
+  }
+}
+/* line 105, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-1 {
+  flex-basis: 8.33333333%;
+  max-width: 8.33333333%;
+}
+
+/* line 111, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-2 {
+  flex-basis: 16.66666667%;
+  max-width: 16.66666667%;
+}
+
+/* line 117, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-3 {
+  flex-basis: 25%;
+  max-width: 25%;
+}
+
+/* line 123, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-4 {
+  flex-basis: 33.33333333%;
+  max-width: 33.33333333%;
+}
+
+/* line 129, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-5 {
+  flex-basis: 41.66666667%;
+  max-width: 41.66666667%;
+}
+
+/* line 135, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-6 {
+  flex-basis: 50%;
+  max-width: 50%;
+}
+
+/* line 141, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-7 {
+  flex-basis: 58.33333333%;
+  max-width: 58.33333333%;
+}
+
+/* line 147, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-8 {
+  flex-basis: 66.66666667%;
+  max-width: 66.66666667%;
+}
+
+/* line 153, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-9 {
+  flex-basis: 75%;
+  max-width: 75%;
+}
+
+/* line 159, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-10 {
+  flex-basis: 83.33333333%;
+  max-width: 83.33333333%;
+}
+
+/* line 165, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-11 {
+  flex-basis: 91.66666667%;
+  max-width: 91.66666667%;
+}
+
+/* line 171, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+/* line 177, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-offset-0 {
+  margin-left: 0;
+}
+
+/* line 181, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-offset-1 {
+  margin-left: 8.33333333%;
+}
+
+/* line 185, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-offset-2 {
+  margin-left: 16.66666667%;
+}
+
+/* line 189, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+/* line 193, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-offset-4 {
+  margin-left: 33.33333333%;
+}
+
+/* line 197, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-offset-5 {
+  margin-left: 41.66666667%;
+}
+
+/* line 201, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+/* line 205, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-offset-7 {
+  margin-left: 58.33333333%;
+}
+
+/* line 209, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-offset-8 {
+  margin-left: 66.66666667%;
+}
+
+/* line 213, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+/* line 217, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-offset-10 {
+  margin-left: 83.33333333%;
+}
+
+/* line 221, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.col-xs-offset-11 {
+  margin-left: 91.66666667%;
+}
+
+/* line 225, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.start-xs {
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  text-align: start;
+}
+
+/* line 232, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.center-xs {
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* line 239, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.end-xs {
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  text-align: end;
+}
+
+/* line 246, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.top-xs {
+  -webkit-box-align: start;
+  align-items: flex-start;
+}
+
+/* line 252, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.middle-xs {
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+/* line 258, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.bottom-xs {
+  -webkit-box-align: end;
+  align-items: flex-end;
+}
+
+/* line 264, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.around-xs {
+  justify-content: space-around;
+}
+
+/* line 269, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.between-xs {
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+/* line 275, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.first-xs {
+  -webkit-box-ordinal-group: 0;
+  order: -1;
+}
+
+/* line 281, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+.last-xs {
+  -webkit-box-ordinal-group: 2;
+  order: 1;
+}
+
+@media only screen and (min-width: 640px) {
+  /* line 291, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-xs-0 {
+    display: block;
+  }
+
+  /* line 293, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm,
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-sm-offset-0,
+  .col-sm-offset-1,
+  .col-sm-offset-2,
+  .col-sm-offset-3,
+  .col-sm-offset-4,
+  .col-sm-offset-5,
+  .col-sm-offset-6,
+  .col-sm-offset-7,
+  .col-sm-offset-8,
+  .col-sm-offset-9,
+  .col-sm-offset-10,
+  .col-sm-offset-11,
+  .col-sm-offset-12 {
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  /* line 327, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+
+  /* line 336, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-1 {
+    flex-basis: 8.33333333%;
+    max-width: 8.33333333%;
+  }
+
+  /* line 342, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-2 {
+    flex-basis: 16.66666667%;
+    max-width: 16.66666667%;
+  }
+
+  /* line 348, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  /* line 354, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-4 {
+    flex-basis: 33.33333333%;
+    max-width: 33.33333333%;
+  }
+
+  /* line 360, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-5 {
+    flex-basis: 41.66666667%;
+    max-width: 41.66666667%;
+  }
+
+  /* line 366, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  /* line 372, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-7 {
+    flex-basis: 58.33333333%;
+    max-width: 58.33333333%;
+  }
+
+  /* line 378, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-8 {
+    flex-basis: 66.66666667%;
+    max-width: 66.66666667%;
+  }
+
+  /* line 384, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  /* line 390, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-10 {
+    flex-basis: 83.33333333%;
+    max-width: 83.33333333%;
+  }
+
+  /* line 396, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-11 {
+    flex-basis: 91.66666667%;
+    max-width: 91.66666667%;
+  }
+
+  /* line 402, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  /* line 408, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-offset-0 {
+    margin-left: 0;
+  }
+
+  /* line 412, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-offset-1 {
+    margin-left: 8.33333333%;
+  }
+
+  /* line 416, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-offset-2 {
+    margin-left: 16.66666667%;
+  }
+
+  /* line 420, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 424, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-offset-4 {
+    margin-left: 33.33333333%;
+  }
+
+  /* line 428, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-offset-5 {
+    margin-left: 41.66666667%;
+  }
+
+  /* line 432, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 436, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-offset-7 {
+    margin-left: 58.33333333%;
+  }
+
+  /* line 440, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-offset-8 {
+    margin-left: 66.66666667%;
+  }
+
+  /* line 444, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 448, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-offset-10 {
+    margin-left: 83.33333333%;
+  }
+
+  /* line 452, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-sm-offset-11 {
+    margin-left: 91.66666667%;
+  }
+
+  /* line 456, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .start-sm {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    text-align: start;
+  }
+
+  /* line 463, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .center-sm {
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* line 470, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .end-sm {
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    text-align: end;
+  }
+
+  /* line 477, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .top-sm {
+    -webkit-box-align: start;
+    align-items: flex-start;
+  }
+
+  /* line 483, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .middle-sm {
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  /* line 489, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .bottom-sm {
+    -webkit-box-align: end;
+    align-items: flex-end;
+  }
+
+  /* line 495, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .around-sm {
+    justify-content: space-around;
+  }
+
+  /* line 500, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .between-sm {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+
+  /* line 506, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .first-sm {
+    -webkit-box-ordinal-group: 0;
+    order: -1;
+  }
+
+  /* line 512, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .last-sm {
+    -webkit-box-ordinal-group: 2;
+    order: 1;
+  }
+}
+@media only screen and (min-width: 720px) {
+  /* line 523, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md,
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12,
+  .col-md-offset-0,
+  .col-md-offset-1,
+  .col-md-offset-2,
+  .col-md-offset-3,
+  .col-md-offset-4,
+  .col-md-offset-5,
+  .col-md-offset-6,
+  .col-md-offset-7,
+  .col-md-offset-8,
+  .col-md-offset-9,
+  .col-md-offset-10,
+  .col-md-offset-11,
+  .col-md-offset-12 {
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  /* line 557, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+
+  /* line 566, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-1 {
+    flex-basis: 8.33333333%;
+    max-width: 8.33333333%;
+  }
+
+  /* line 572, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-2 {
+    flex-basis: 16.66666667%;
+    max-width: 16.66666667%;
+  }
+
+  /* line 578, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  /* line 584, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-4 {
+    flex-basis: 33.33333333%;
+    max-width: 33.33333333%;
+  }
+
+  /* line 590, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-5 {
+    flex-basis: 41.66666667%;
+    max-width: 41.66666667%;
+  }
+
+  /* line 596, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  /* line 602, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-7 {
+    flex-basis: 58.33333333%;
+    max-width: 58.33333333%;
+  }
+
+  /* line 608, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-8 {
+    flex-basis: 66.66666667%;
+    max-width: 66.66666667%;
+  }
+
+  /* line 614, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  /* line 620, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-10 {
+    flex-basis: 83.33333333%;
+    max-width: 83.33333333%;
+  }
+
+  /* line 626, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-11 {
+    flex-basis: 91.66666667%;
+    max-width: 91.66666667%;
+  }
+
+  /* line 632, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  /* line 638, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-offset-0 {
+    margin-left: 0;
+  }
+
+  /* line 642, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
+  }
+
+  /* line 646, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-offset-2 {
+    margin-left: 16.66666667%;
+  }
+
+  /* line 650, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 654, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-offset-4 {
+    margin-left: 33.33333333%;
+  }
+
+  /* line 658, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-offset-5 {
+    margin-left: 41.66666667%;
+  }
+
+  /* line 662, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 666, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-offset-7 {
+    margin-left: 58.33333333%;
+  }
+
+  /* line 670, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-offset-8 {
+    margin-left: 66.66666667%;
+  }
+
+  /* line 674, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 678, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-offset-10 {
+    margin-left: 83.33333333%;
+  }
+
+  /* line 682, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-md-offset-11 {
+    margin-left: 91.66666667%;
+  }
+
+  /* line 686, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .start-md {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    text-align: start;
+  }
+
+  /* line 693, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .center-md {
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* line 700, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .end-md {
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    text-align: end;
+  }
+
+  /* line 707, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .top-md {
+    -webkit-box-align: start;
+    align-items: flex-start;
+  }
+
+  /* line 713, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .middle-md {
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  /* line 719, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .bottom-md {
+    -webkit-box-align: end;
+    align-items: flex-end;
+  }
+
+  /* line 725, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .around-md {
+    justify-content: space-around;
+  }
+
+  /* line 730, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .between-md {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+
+  /* line 736, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .first-md {
+    -webkit-box-ordinal-group: 0;
+    order: -1;
+  }
+
+  /* line 742, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .last-md {
+    -webkit-box-ordinal-group: 2;
+    order: 1;
+  }
+}
+@media only screen and (min-width: 1080px) {
+  /* line 753, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg,
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12,
+  .col-lg-offset-0,
+  .col-lg-offset-1,
+  .col-lg-offset-2,
+  .col-lg-offset-3,
+  .col-lg-offset-4,
+  .col-lg-offset-5,
+  .col-lg-offset-6,
+  .col-lg-offset-7,
+  .col-lg-offset-8,
+  .col-lg-offset-9,
+  .col-lg-offset-10,
+  .col-lg-offset-11,
+  .col-lg-offset-12 {
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    flex: 0 0 auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  /* line 787, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg {
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+  }
+
+  /* line 796, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-1 {
+    flex-basis: 8.33333333%;
+    max-width: 8.33333333%;
+  }
+
+  /* line 802, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-2 {
+    flex-basis: 16.66666667%;
+    max-width: 16.66666667%;
+  }
+
+  /* line 808, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  /* line 814, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-4 {
+    flex-basis: 33.33333333%;
+    max-width: 33.33333333%;
+  }
+
+  /* line 820, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-5 {
+    flex-basis: 41.66666667%;
+    max-width: 41.66666667%;
+  }
+
+  /* line 826, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+
+  /* line 832, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-7 {
+    flex-basis: 58.33333333%;
+    max-width: 58.33333333%;
+  }
+
+  /* line 838, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-8 {
+    flex-basis: 66.66666667%;
+    max-width: 66.66666667%;
+  }
+
+  /* line 844, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-9 {
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+
+  /* line 850, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-10 {
+    flex-basis: 83.33333333%;
+    max-width: 83.33333333%;
+  }
+
+  /* line 856, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-11 {
+    flex-basis: 91.66666667%;
+    max-width: 91.66666667%;
+  }
+
+  /* line 862, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  /* line 868, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-offset-0 {
+    margin-left: 0;
+  }
+
+  /* line 872, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-offset-1 {
+    margin-left: 8.33333333%;
+  }
+
+  /* line 876, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-offset-2 {
+    margin-left: 16.66666667%;
+  }
+
+  /* line 880, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 884, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-offset-4 {
+    margin-left: 33.33333333%;
+  }
+
+  /* line 888, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-offset-5 {
+    margin-left: 41.66666667%;
+  }
+
+  /* line 892, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 896, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-offset-7 {
+    margin-left: 58.33333333%;
+  }
+
+  /* line 900, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-offset-8 {
+    margin-left: 66.66666667%;
+  }
+
+  /* line 904, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 908, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-offset-10 {
+    margin-left: 83.33333333%;
+  }
+
+  /* line 912, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .col-lg-offset-11 {
+    margin-left: 91.66666667%;
+  }
+
+  /* line 916, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .start-lg {
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    text-align: start;
+  }
+
+  /* line 923, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .center-lg {
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* line 930, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .end-lg {
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    text-align: end;
+  }
+
+  /* line 937, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .top-lg {
+    -webkit-box-align: start;
+    align-items: flex-start;
+  }
+
+  /* line 943, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .middle-lg {
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  /* line 949, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .bottom-lg {
+    -webkit-box-align: end;
+    align-items: flex-end;
+  }
+
+  /* line 955, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .around-lg {
+    justify-content: space-around;
+  }
+
+  /* line 960, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .between-lg {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+  }
+
+  /* line 966, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .first-lg {
+    -webkit-box-ordinal-group: 0;
+    order: -1;
+  }
+
+  /* line 972, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_grid.scss */
+  .last-lg {
+    -webkit-box-ordinal-group: 2;
+    order: 1;
+  }
+}
+/* line 12, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_variables.sass */
+:root {
+  --t5: 1.4rem;
+  --t4: 1.7rem;
+  --t3: 2.2rem;
+  --t2: 2.8rem;
+  --t1: 3.6rem;
+  --contained: 1360px;
+  --max: 1500px;
+  --baseline: 1rem;
+  --gutter: 4rem;
+  --default: #fafafa;
+  --white: #ffffff;
+  --faint: #f5f5f5;
+  --grey: #999;
+  --black: #070707;
+  --blue: #4000FF;
+  --red: #FC4604;
+  --green: #A7FC04;
+  --yellow: #FCFC04;
+  --blue-dark: #2F00BF;
+}
+@media screen and (min-width: 720px) {
+  /* line 12, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_variables.sass */
+  :root {
+    --t2: 3.9rem;
+    --t1: 6.0rem;
+  }
+}
+
+@-o-viewport {
+  zoom: 1;
+  width: extend-to-zoom;
+}
+
+@viewport {
+  zoom: 1;
+  width: extend-to-zoom;
+}
+@-ms-viewport {
+  width: extend-to-zoom;
+  zoom: 1;
+}
+/* line 10, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_reset.sass */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  -webkit-font-feature-settings: "kern", "liga", "pnum";
+          font-feature-settings: "kern", "liga", "pnum";
+  -webkit-backface-visibility: visible;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
+
+/* line 26, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_reset.sass */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 29, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_reset.sass */
+:focus {
+  outline: 0;
+}
+
+/* line 32, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_reset.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 36, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_reset.sass */
+ul, ol {
+  list-style: none;
+}
+
+/* line 39, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/modules/_reset.sass */
+* {
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_artwork.sass */
+.artwork {
+  width: 100%;
+  display: block;
+  margin: 0;
+  position: relative;
+  background: var(--faint);
+}
+/* line 8, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_artwork.sass */
+.artwork > .overlay {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  padding: 0.25rem 0.5rem;
+  z-index: 1;
+}
+/* line 15, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_artwork.sass */
+.artwork > img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+/* line 22, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_artwork.sass */
+.artwork figcaption {
+  display: block;
+  font-family: "Zirkon", sans-serif;
+  font-size: var(--t4);
+  line-height: 1.4;
+  padding: 1rem 0 0.5rem;
+  text-align: center;
+  background: var(--default);
+}
+/* line 31, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_artwork.sass */
+.artwork.-landscape, .artwork.-square, .artwork.-face {
+  overflow: hidden;
+}
+/* line 33, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_artwork.sass */
+.artwork.-landscape img, .artwork.-square img, .artwork.-face img {
+  z-index: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+/* line 43, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_artwork.sass */
+.artwork.-face {
+  border-radius: 1.5px;
+  width: 12rem;
+  height: 12rem;
+  margin: 0 auto;
+}
+/* line 49, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_artwork.sass */
+.artwork.-landscape {
+  padding-top: 66.666%;
+}
+/* line 52, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_artwork.sass */
+.artwork.-square {
+  padding-top: 100%;
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+html {
+  font-size: 8px;
+}
+@media screen and (min-width: 720px) {
+  /* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+  html {
+    font-size: 9px;
+  }
+}
+@media screen and (min-width: 1080px) {
+  /* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+  html {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  /* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+  html {
+    font-size: 11px;
+  }
+}
+
+/* line 11, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+body {
+  border-top: 0.75rem solid var(--black);
+  font-family: "Zirkon", sans-serif;
+  font-weight: 400;
+  font-size: var(--t4);
+  line-height: calc(var(--baseline) * 2);
+  background-color: var(--default);
+}
+/* line 19, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+body.-overlay-open {
+  overflow: hidden;
+}
+
+/* line 22, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+::-moz-selection {
+  color: var(--white);
+  background: var(--blue);
+  text-shadow: none;
+}
+::selection {
+  color: var(--white);
+  background: var(--blue);
+  text-shadow: none;
+}
+/* line 26, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+::-moz-selection a, ::-moz-selection a:link, ::-moz-selection a:visited {
+  text-shadow: none;
+}
+::selection a, ::selection a:link, ::selection a:visited {
+  text-shadow: none;
+}
+
+/* line 29, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+a, a:link, a:visited {
+  color: var(--black);
+  text-decoration: none;
+}
+/* line 32, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+a:hover, a:link:hover, a:visited:hover {
+  color: var(--blue);
+  cursor: pointer;
+}
+/* line 36, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+a.-disabled, a:link.-disabled, a:visited.-disabled {
+  color: var(--grey);
+}
+/* line 38, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+a.-disabled:hover, a:link.-disabled:hover, a:visited.-disabled:hover {
+  cursor: default;
+  color: var(--grey);
+}
+
+/* line 42, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+code {
+  font-family: "America Mono", monospace;
+  background-color: var(--faint);
+}
+
+/* line 46, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+h1, h2, h3, h4, h5, h6, big, strong, b {
+  font-weight: 600;
+}
+
+/* line 49, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+.sub-omnipresent {
+  padding-top: calc(4.32rem - 0.75rem);
+}
+
+/* line 52, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+.hidden {
+  display: none;
+}
+@media screen and (min-width: 720px) {
+  /* line 55, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+  .hidden.-md-show {
+    display: block;
+  }
+}
+@media screen and (min-width: 1080px) {
+  /* line 62, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_basics.sass */
+  .hidden.-lg-show {
+    display: block;
+  }
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 4, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.inline {
+  display: inline;
+}
+
+/* line 7, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block {
+  display: block;
+}
+/* line 10, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-omega {
+  margin-bottom: 30vh;
+}
+/* line 12, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pull-up {
+  margin-top: -4rem;
+}
+/* line 14, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pull-down {
+  margin-bottom: -4rem;
+  z-index: 99;
+  position: relative;
+}
+/* line 18, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-bg-black {
+  color: var(--default);
+  background-color: var(--black);
+}
+/* line 21, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-bg-black a, .block.-bg-black a:link, .block.-bg-black a:visited {
+  color: var(--default);
+}
+/* line 24, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-bg-blue {
+  color: var(--default);
+  background-color: var(--blue);
+}
+/* line 27, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-bg-red {
+  color: var(--white);
+  background-color: var(--red);
+}
+/* line 30, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-bg-default {
+  color: var(--black);
+  background-color: var(--default);
+}
+/* line 33, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-bg-faint {
+  color: var(--black);
+  background-color: var(--faint);
+}
+/* line 36, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-bg-image {
+  background-size: cover;
+  background-position: center;
+}
+/* line 40, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-m0 {
+  margin: 0;
+}
+/* line 42, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mt0 {
+  margin-top: 0;
+}
+/* line 44, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mr0 {
+  margin-right: 0;
+}
+/* line 46, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mb0 {
+  margin-bottom: 0;
+}
+/* line 48, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-ml0 {
+  margin-left: 0;
+}
+/* line 50, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mx0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 53, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-my0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 56, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-m1 {
+  margin: 1rem;
+}
+/* line 58, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mt1 {
+  margin-top: 1rem;
+}
+/* line 60, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mr1 {
+  margin-right: 1rem;
+}
+/* line 62, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mb1 {
+  margin-bottom: 1rem;
+}
+/* line 64, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-ml1 {
+  margin-left: 1rem;
+}
+/* line 66, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mx1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+/* line 69, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-my1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* line 72, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-m2 {
+  margin: 2rem;
+}
+/* line 74, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mt2 {
+  margin-top: 2rem;
+}
+/* line 76, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mr2 {
+  margin-right: 2rem;
+}
+/* line 78, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mb2 {
+  margin-bottom: 2rem;
+}
+/* line 80, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-ml2 {
+  margin-left: 2rem;
+}
+/* line 82, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mx2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+/* line 85, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-my2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+/* line 88, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-m3 {
+  margin: 3rem;
+}
+/* line 90, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mt3 {
+  margin-top: 3rem;
+}
+/* line 92, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mr3 {
+  margin-right: 3rem;
+}
+/* line 94, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mb3 {
+  margin-bottom: 3rem;
+}
+/* line 96, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-ml3 {
+  margin-left: 3rem;
+}
+/* line 98, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mx3 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+/* line 101, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-my3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+/* line 104, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-m4 {
+  margin: 4rem;
+}
+/* line 106, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mt4 {
+  margin-top: 4rem;
+}
+/* line 108, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mr4 {
+  margin-right: 4rem;
+}
+/* line 110, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mb4 {
+  margin-bottom: 4rem;
+}
+/* line 112, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-ml4 {
+  margin-left: 4rem;
+}
+/* line 114, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mx4 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+/* line 117, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-my4 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+/* line 120, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mxn1 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+/* line 123, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mxn2 {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+/* line 126, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mxn3 {
+  margin-left: -3rem;
+  margin-right: -3rem;
+}
+/* line 129, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mxn4 {
+  margin-left: -4rem;
+  margin-right: -4rem;
+}
+/* line 132, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-ml-auto {
+  margin-left: auto;
+}
+/* line 134, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mr-auto {
+  margin-right: auto;
+}
+/* line 136, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 140, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-p0 {
+  padding: 0;
+}
+/* line 142, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pt0 {
+  padding-top: 0;
+}
+/* line 144, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pr0 {
+  padding-right: 0;
+}
+/* line 146, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pb0 {
+  padding-bottom: 0;
+}
+/* line 148, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pl0 {
+  padding-left: 0;
+}
+/* line 150, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-px0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 153, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-py0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 156, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-p1 {
+  padding: 1rem;
+}
+/* line 158, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pt1 {
+  padding-top: 1rem;
+}
+/* line 160, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pr1 {
+  padding-right: 1rem;
+}
+/* line 162, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pb1 {
+  padding-bottom: 1rem;
+}
+/* line 164, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pl1 {
+  padding-left: 1rem;
+}
+/* line 166, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-py1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+/* line 169, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-px1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/* line 172, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-p2 {
+  padding: 2rem;
+}
+/* line 174, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pt2 {
+  padding-top: 2rem;
+}
+/* line 176, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pr2 {
+  padding-right: 2rem;
+}
+/* line 178, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pb2 {
+  padding-bottom: 2rem;
+}
+/* line 180, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pl2 {
+  padding-left: 2rem;
+}
+/* line 182, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-py2 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+/* line 185, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-px2 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+/* line 188, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-p3 {
+  padding: 3rem;
+}
+/* line 190, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pt3 {
+  padding-top: 3rem;
+}
+/* line 192, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pr3 {
+  padding-right: 3rem;
+}
+/* line 194, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pb3 {
+  padding-bottom: 3rem;
+}
+/* line 196, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pl3 {
+  padding-left: 3rem;
+}
+/* line 198, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-py3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+/* line 201, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-px3 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+/* line 204, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-p4 {
+  padding: 4rem;
+}
+/* line 206, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pt4 {
+  padding-top: 4rem;
+}
+/* line 208, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pr4 {
+  padding-right: 4rem;
+}
+/* line 210, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pb4 {
+  padding-bottom: 4rem;
+}
+/* line 212, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-pl4 {
+  padding-left: 4rem;
+}
+/* line 214, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-py4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+/* line 217, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-px4 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+/* line 221, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-gy {
+  margin-top: calc(var(--gutter) * 2);
+  margin-bottom: calc(var(--gutter) * 2);
+}
+/* line 224, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-gt {
+  margin-top: calc(var(--gutter) * 2);
+}
+/* line 226, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-gb {
+  margin-bottom: calc(var(--gutter) * 2);
+}
+/* line 229, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-b {
+  border: 1px solid var(--black);
+}
+/* line 231, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-by {
+  border-top: 1px solid var(--black);
+  border-bottom: 1px solid var(--black);
+}
+/* line 234, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-bx {
+  border-left: 1px solid var(--black);
+  border-right: 1px solid var(--black);
+}
+/* line 237, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-bt {
+  border-top: 1px solid var(--black);
+}
+/* line 239, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-bb {
+  border-bottom: 1px solid var(--black);
+}
+/* line 241, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-bl {
+  border-left: 1px solid var(--black);
+}
+/* line 243, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-br {
+  border-right: 1px solid var(--black);
+}
+/* line 246, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-hr {
+  border-bottom: calc(0.75rem/2) solid var(--black);
+}
+/* line 249, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.block.-shadow {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+}
+
+/* line 252, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+.flex {
+  display: -webkit-box;
+  display: flex;
+}
+@media screen and (min-width: 720px) {
+  /* line 256, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_block.sass */
+  .flex.-cy {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: stretch;
+            align-items: stretch;
+  }
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.button, a.button, a.button:link, a.button:visited, input.button {
+  font-family: "Zirkon", sans-serif;
+  -webkit-appearance: none;
+  border: 0;
+}
+/* line 6, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.button:hover, a.button:hover, a.button:link:hover, a.button:visited:hover, input.button:hover {
+  cursor: pointer;
+}
+/* line 9, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.button.-standard, a.button.-standard, a.button:link.-standard, a.button:visited.-standard, input.button.-standard {
+  background: var(--default);
+  color: var(--black);
+  padding: 0.675rem 1.25rem;
+  border: 1px solid var(--black);
+  -webkit-transition: 0.125s ease all;
+  transition: 0.125s ease all;
+}
+/* line 15, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.button.-standard:hover, a.button.-standard:hover, a.button:link.-standard:hover, a.button:visited.-standard:hover, input.button.-standard:hover {
+  background: var(--yellow);
+  color: var(--black);
+}
+/* line 19, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.button.-standard.-big, a.button.-standard.-big, a.button:link.-standard.-big, a.button:visited.-standard.-big, input.button.-standard.-big {
+  font-size: var(--t3);
+  line-height: 1.5;
+  padding: 1.75rem 3.25rem;
+  font-weight: 800;
+}
+/* line 25, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.button.-red, a.button.-red, a.button:link.-red, a.button:visited.-red, input.button.-red {
+  background: var(--red);
+  color: var(--white);
+  padding: 0.675rem 1.25rem;
+  -webkit-transition: 0.25s ease all;
+  transition: 0.25s ease all;
+}
+/* line 30, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.button.-red:hover, a.button.-red:hover, a.button:link.-red:hover, a.button:visited.-red:hover, input.button.-red:hover {
+  color: var(--yellow);
+}
+/* line 33, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.button.-red.-big, a.button.-red.-big, a.button:link.-red.-big, a.button:visited.-red.-big, input.button.-red.-big {
+  padding: 1.5rem 3rem;
+  font-weight: 600;
+  background-color: var(--red);
+  color: var(--white);
+}
+/* line 39, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.button.-yellow, a.button.-yellow, a.button:link.-yellow, a.button:visited.-yellow, input.button.-yellow {
+  background: var(--yellow);
+  color: var(--black);
+  padding: 0.675rem 1.25rem;
+  border: 1px solid var(--black);
+  -webkit-transition: 0.25s ease all;
+  transition: 0.25s ease all;
+}
+/* line 45, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.button.-yellow:hover, a.button.-yellow:hover, a.button:link.-yellow:hover, a.button:visited.-yellow:hover, input.button.-yellow:hover {
+  color: var(--red);
+}
+/* line 48, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.button.-yellow.-big, a.button.-yellow.-big, a.button:link.-yellow.-big, a.button:visited.-yellow.-big, input.button.-yellow.-big {
+  padding: 1.5rem 3rem;
+  font-weight: 600;
+}
+/* line 52, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.button.-white, a.button.-white, a.button:link.-white, a.button:visited.-white, input.button.-white {
+  background: var(--default);
+  color: var(--black);
+  padding: 0.575rem 1rem;
+  border: 1px solid var(--black);
+  -webkit-transition: 0.125s ease all;
+  transition: 0.125s ease all;
+  font-weight: 600;
+}
+/* line 59, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.button.-white:hover, a.button.-white:hover, a.button:link.-white:hover, a.button:visited.-white:hover, input.button.-white:hover {
+  background: var(--white);
+  color: var(--blue);
+}
+
+/* line 63, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.text-button {
+  -webkit-appearance: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-family: "Zirkon", sans-serif;
+  font-weight: 400;
+  color: var(--black);
+  border: 0;
+  background-color: transparent;
+}
+/* line 73, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_button.sass */
+.text-button:hover {
+  color: var(--blue);
+  border-color: transparent;
+  cursor: pointer;
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_flex.sass */
+.flex {
+  display: -webkit-box;
+  display: flex;
+}
+/* line 4, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_flex.sass */
+.flex.-c {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+/* line 7, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_flex.sass */
+.flex.-sb {
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+/* line 10, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_flex.sass */
+.flex.-fs {
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+}
+/* line 13, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_flex.sass */
+.flex.-fe {
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_form.sass */
+input, textarea {
+  font-family: "Zirkon", sans-serif;
+  font-weight: 400;
+  font-size: var(--t5);
+}
+
+/* line 3, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-nav > li {
+  display: inline;
+}
+/* line 6, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-nav > li + li:before {
+  content: "/ ";
+  color: var(--grey);
+}
+/* line 12, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-em > li:before {
+  content: "—";
+  color: var(--grey);
+}
+/* line 17, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-delineated li {
+  padding: 0 0 calc(var(--baseline)/2);
+}
+/* line 19, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-delineated li:last-child {
+  padding-bottom: 0;
+}
+/* line 21, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-delineated li + li {
+  padding-top: calc(var(--baseline)/2);
+  border-top: 1px solid var(--faint);
+}
+/* line 25, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-options li + li {
+  margin-top: var(--baseline);
+}
+/* line 29, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-meta li + li {
+  border-top: 1px solid var(--black);
+}
+/* line 31, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-meta li {
+  position: relative;
+  padding: calc(var(--baseline)*2.75) var(--baseline) var(--baseline);
+}
+/* line 35, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-meta li label {
+  position: absolute;
+  top: calc(var(--baseline)/2);
+  left: var(--baseline);
+  font-size: var(--t5);
+}
+/* line 41, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-articles {
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 45, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-articles > li {
+  display: inline;
+}
+/* line 48, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-articles > li + li:before {
+  content: " / ";
+  color: var(--grey);
+}
+/* line 53, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-sentence > li {
+  display: inline;
+}
+/* line 55, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-sentence > li:after {
+  content: ", ";
+}
+/* line 58, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-sentence > li:last-child:after {
+  content: "";
+}
+/* line 62, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-tags li {
+  display: inline-block;
+}
+/* line 65, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-tags a, .list.-tags a:link, .list.-tags a:visited, .list.-tags .tag {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--red);
+  border: 1px solid var(--red);
+  padding: 0.5rem 0.75rem;
+  -webkit-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+}
+/* line 72, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_list.sass */
+.list.-tags a:hover, .list.-tags a:link:hover, .list.-tags a:visited:hover, .list.-tags .tag:hover {
+  background: var(--red);
+  color: var(--default);
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_tables.sass */
+.table.-invoice {
+  width: 100%;
+  border-top: 0.25rem solid var(--black);
+  font-size: var(--b3);
+}
+/* line 6, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_tables.sass */
+.table.-invoice th {
+  font-weight: 600;
+}
+/* line 9, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_tables.sass */
+.table.-invoice td, .table.-invoice th {
+  padding: 0.5rem;
+  text-align: left;
+}
+/* line 13, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_tables.sass */
+.table.-invoice td:last-child, .table.-invoice th:last-child {
+  text-align: right;
+}
+/* line 17, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_tables.sass */
+.table.-invoice tbody tr {
+  border-top: 1px solid var(--black);
+}
+
+/* line 2, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-w3 {
+  font-weight: 300;
+}
+/* line 4, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-w4 {
+  font-weight: 400;
+}
+/* line 6, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-w5 {
+  font-weight: 500;
+}
+/* line 8, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-w6 {
+  font-weight: 600;
+}
+/* line 10, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-w8 {
+  font-weight: 800;
+}
+/* line 13, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-i {
+  font-style: italic;
+}
+/* line 16, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-serif {
+  font-family: "Suisse Works", serif;
+}
+/* line 19, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-red {
+  color: var(--red);
+}
+/* line 23, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-red.-sf a, .c.-red.-sf a:link, .c.-red.-sf a:visited {
+  color: var(--red);
+  font-weight: 400;
+  border-color: var(--red);
+}
+/* line 28, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-grey {
+  color: var(--grey);
+}
+/* line 32, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-grey.-sf a, .c.-grey.-sf a:link, .c.-grey.-sf a:visited {
+  color: var(--grey);
+  font-weight: 400;
+  border-color: var(--grey);
+}
+/* line 37, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-quote {
+  background: var(--faint);
+}
+/* line 39, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-quote:before {
+  content: "‘";
+}
+/* line 41, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.c.-quote:after {
+  content: "’";
+}
+
+/* line 46, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.a.-elsewhere:after {
+  font-weight: 400;
+  content: " →";
+  opacity: 0;
+  margin-left: -0.5rem;
+  -webkit-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+}
+/* line 53, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.a.-elsewhere:hover:after {
+  opacity: 1;
+  margin-left: 0;
+}
+
+/* line 57, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.code {
+  font-family: "America Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* line 63, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-mono {
+  font-family: "America Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+/* line 68, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-t1 {
+  font-size: var(--t1);
+  line-height: 1.1;
+}
+/* line 72, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-t2 {
+  font-size: var(--t2);
+  line-height: 1.2;
+}
+/* line 76, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-t2.-serif {
+  font-size: calc(var(--t2) * 0.869);
+  line-height: calc(var(--t2) * 1.4);
+  font-family: "Suisse Works", serif;
+}
+/* line 81, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-t3 {
+  font-size: var(--t3);
+  line-height: 1.4;
+}
+/* line 85, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-t3.-serif {
+  font-size: calc(var(--t3) * 0.869);
+  line-height: calc(var(--t3) * 1.4);
+  font-family: "Suisse Works", serif;
+}
+/* line 90, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-t4 {
+  font-size: var(--t4);
+  line-height: 1.4;
+}
+/* line 94, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-t4.-serif {
+  font-size: calc(var(--t4) * 0.869);
+  line-height: calc(var(--t4) * 1.4);
+  font-family: "Suisse Works", serif;
+}
+/* line 99, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-t5 {
+  font-size: var(--t5);
+  line-height: 1.4;
+}
+/* line 103, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-t5.-serif {
+  font-size: calc(var(--t5) * 0.869);
+  line-height: calc(var(--t5) * 1.4);
+  font-family: "Suisse Works", serif;
+}
+/* line 109, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-sf a, .p.-sf a:link, .p.-sf a:visited {
+  border-bottom: 1px solid var(--black);
+}
+/* line 111, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-sf a:hover, .p.-sf a:link:hover, .p.-sf a:visited:hover {
+  color: var(--blue);
+  border-bottom-color: var(--blue);
+}
+/* line 114, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-sf p, .p.-sf ul, .p.-sf ol {
+  margin: 1em 0;
+}
+/* line 116, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-sf p:first-child, .p.-sf ul:first-child, .p.-sf ol:first-child {
+  margin-top: 0;
+}
+/* line 118, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-sf p:last-child, .p.-sf ul:last-child, .p.-sf ol:last-child {
+  margin-bottom: 0;
+}
+/* line 121, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-serif {
+  font-family: "Suisse Works", serif;
+}
+/* line 125, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-centered {
+  text-align: center;
+}
+/* line 127, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-left {
+  text-align: left;
+}
+/* line 129, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.p.-right {
+  text-align: right;
+}
+
+/* line 134, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.h.-h1 {
+  font-size: var(--t1);
+  letter-spacing: -0.0325em;
+  line-height: 1.1;
+  font-weight: 400;
+}
+/* line 139, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.h.-h2 {
+  font-size: var(--t2);
+  letter-spacing: -0.0325em;
+  line-height: 1.2;
+  font-weight: 800;
+}
+/* line 144, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.h.-h3 {
+  font-size: var(--t3);
+  line-height: 1.2;
+  font-weight: 400;
+}
+/* line 148, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.h.-h4 {
+  font-family: "Zirkon", sans-serif;
+  font-size: var(--t3);
+  line-height: 1.2;
+  font-weight: 800;
+}
+/* line 154, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.h.-serif {
+  font-family: "Suisse Works", serif;
+  font-weight: 400;
+}
+/* line 159, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.h.-centered {
+  text-align: center;
+}
+/* line 161, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.h.-left {
+  text-align: left;
+}
+/* line 163, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/shared/_text.sass */
+.h.-right {
+  text-align: right;
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/components/_hr.sass */
+hr.-stroke {
+  border-style: solid;
+  border-color: var(--black);
+  border-width: 0.5px 0;
+  margin: 0;
+}
+
+/* line 7, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/components/_hr.sass */
+.flex > hr.-stroke {
+  position: absolute;
+  left: calc(var(--gutter)/2);
+  right: calc(var(--gutter)/2);
+  bottom: 0.5px;
+}
+
+/* line 13, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/components/_hr.sass */
+hr.-separator {
+  max-width: 8rem;
+  border-style: solid;
+  border-color: var(--black);
+  border-width: 0.5px 0;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/components/_progress-bar.sass */
+.progress-bar {
+  background-color: var(--black);
+  height: 0.75rem;
+  width: 100vw;
+  overflow: hidden;
+}
+/* line 7, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/components/_progress-bar.sass */
+.progress-bar.-fixed {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-data.sass */
+.admin-data {
+  border-bottom: 1px solid var(--black);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+/* line 5, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-data.sass */
+.admin-data dd + dt {
+  margin-top: 1rem;
+}
+/* line 8, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-data.sass */
+.admin-data dt {
+  font-style: italic;
+}
+/* line 11, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-data.sass */
+.admin-data dd {
+  padding-right: 10%;
+}
+/* line 14, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-data.sass */
+.admin-data a, .admin-data a:link, .admin-data a:visited {
+  border-bottom: 1px solid var(--blue);
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-form {
+  border: 1px solid var(--black);
+  margin: 1rem;
+}
+/* line 4, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-form .errors {
+  border-bottom: 1px solid var(--black);
+  padding: 1rem;
+}
+/* line 7, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-form .errors li {
+  color: var(--red);
+  font-weight: 400;
+  font-style: italic;
+}
+/* line 11, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-form .errors li:before {
+  content: "– ";
+}
+/* line 14, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-form .field {
+  border-bottom: 1px solid var(--black);
+  padding: 1rem;
+}
+/* line 18, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-form .field .hint {
+  text-align: right;
+  font-size: var(--t5);
+  color: var(--grey);
+}
+/* line 23, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-form .field label {
+  display: block;
+  font-style: italic;
+}
+/* line 27, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-form .field input, .admin-form .field textarea {
+  background: var(--faint);
+  border: 0;
+  padding: 0.25rem;
+  font-size: var(--t3);
+  line-height: 1.4;
+  width: 100%;
+}
+/* line 35, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-form .field select {
+  width: 100%;
+}
+/* line 38, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-form .field textarea.article {
+  height: 80vh;
+  font-size: var(--t3);
+  line-height: 1.5;
+  font-family: "Suisse Works", serif;
+}
+/* line 44, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-form .field img {
+  max-width: 30vw;
+  width: auto;
+  max-height: 40vh;
+  height: auto;
+}
+/* line 50, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-form .actions {
+  padding: 1rem;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+}
+
+/* line 56, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.input.-image-picker {
+  overflow: hidden;
+  margin: 0 -1rem;
+}
+/* line 59, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.input.-image-picker .option {
+  float: left;
+  width: 20%;
+  padding: 1rem;
+}
+
+/* line 65, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-search-form input[type="submit"], .admin-search-form button {
+  border: 0;
+  color: var(--black);
+  background-color: transparent;
+}
+/* line 69, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-form.sass */
+.admin-search-form input[type="submit"]:hover, .admin-search-form button:hover {
+  color: var(--red);
+  background-color: transparent;
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-header.sass */
+.admin-header {
+  border-top: 0.75rem solid var(--black);
+  border-right: 1px solid var(--black);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  background: var(--faint);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+}
+/* line 13, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-header.sass */
+.admin-header a, .admin-header a:link, .admin-header a:visited {
+  display: block;
+  -webkit-box-flex: 0;
+          flex: 0;
+  padding: 0.5rem 1rem;
+  width: 14rem;
+  font-weight: 600;
+  font-size: var(--t5);
+}
+/* line 20, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-header.sass */
+.admin-header a:hover, .admin-header a:link:hover, .admin-header a:visited:hover {
+  background-color: var(--blue);
+  color: var(--default);
+}
+
+/* line 2, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-list.sass */
+.admin-list.-artworks {
+  overflow: hidden;
+}
+/* line 4, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-list.sass */
+.admin-list.-artworks > li {
+  float: left;
+  width: 20%;
+  overflow: hidden;
+  padding: 1rem;
+}
+/* line 10, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-list.sass */
+.admin-list.-artworks > li code {
+  font-family: "Zirkon", sans-serif;
+  font-size: var(--t5);
+  line-height: 1.25;
+}
+/* line 15, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-list.sass */
+.admin-list.-artworks > li figure.artwork.-small {
+  width: 90%;
+  margin: 0;
+  padding: 0;
+}
+/* line 20, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-list.sass */
+.admin-list.-artworks > li figure.artwork.-small img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-main.sass */
+.admin-main {
+  padding: 0 0 0 14rem;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: stretch;
+          justify-content: stretch;
+  height: 100vh;
+  overflow: hidden;
+  border-top: 0.75rem solid var(--black);
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview {
+  padding-right: 15%;
+  padding-left: 5%;
+}
+/* line 5, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview header {
+  padding: 2rem 0;
+}
+/* line 7, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview header .headline {
+  font-size: var(--t2);
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: left;
+  margin: calc(var(--gutter)/2) 0;
+  max-width: 24em;
+}
+/* line 16, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview article {
+  font-family: "Suisse Works", serif;
+  font-size: var(--t3);
+  line-height: 1.5;
+}
+/* line 21, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview article a, .admin-preview article a:link, .admin-preview article a:visited {
+  border-bottom: 1px solid var(--blue);
+}
+/* line 24, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview article h3, .admin-preview article h4, .admin-preview article h5 {
+  font-size: var(--t2);
+  font-weight: 800;
+  font-family: "Zirkon", sans-serif;
+  margin-left: var(--gutter);
+  margin-top: var(--gutter);
+  margin-bottom: 1rem;
+}
+/* line 32, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview article figure.artwork {
+  display: block;
+  margin: 0;
+  padding-top: 60%;
+  width: 100%;
+  position: relative;
+  background: var(--faint);
+}
+/* line 40, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview article figure.artwork img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/* line 48, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview article figure.artwork figcaption {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  display: block;
+  z-index: 999;
+  color: var(--default);
+}
+/* line 56, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview article p, .admin-preview article ul, .admin-preview article ol, .admin-preview article blockquote, .admin-preview article h3, .admin-preview article h4 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/* line 60, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview article ul {
+  list-style: disc inside;
+}
+/* line 63, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview article ol {
+  list-style: decimal inside;
+}
+/* line 66, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview article .section-separator {
+  text-align: center;
+  color: var(--black);
+}
+/* line 70, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview article .artwork {
+  font-family: "Zirkon", sans-serif;
+  font-size: var(--t5);
+  color: var(--grey);
+}
+/* line 75, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-preview.sass */
+.admin-preview article .artwork figcaption {
+  text-align: right;
+  margin-top: var(--baseline);
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+}
+
+/* line 7, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container .select2-selection--single {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  height: 28px;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+/* line 14, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container .select2-selection--single .select2-selection__rendered {
+  display: block;
+  padding-left: 8px;
+  padding-right: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 21, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container .select2-selection--single .select2-selection__clear {
+  position: relative;
+}
+
+/* line 23, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container[dir="rtl"] .select2-selection--single .select2-selection__rendered {
+  padding-right: 8px;
+  padding-left: 20px;
+}
+
+/* line 26, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container .select2-selection--multiple {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  min-height: 32px;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+/* line 33, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container .select2-selection--multiple .select2-selection__rendered {
+  display: inline-block;
+  overflow: hidden;
+  padding-left: 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* line 39, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container .select2-search--inline {
+  float: left;
+}
+
+/* line 41, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container .select2-search--inline .select2-search__field {
+  box-sizing: border-box;
+  border: none;
+  font-size: 100%;
+  margin-top: 5px;
+  padding: 0;
+}
+
+/* line 47, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container .select2-search--inline .select2-search__field::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* line 50, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-dropdown {
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  left: -100000px;
+  width: 100%;
+  z-index: 1051;
+}
+
+/* line 61, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-results {
+  display: block;
+}
+
+/* line 64, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-results__options {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 69, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-results__option {
+  padding: 6px;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
+  -webkit-user-select: none;
+}
+
+/* line 73, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-results__option[aria-selected] {
+  cursor: pointer;
+}
+
+/* line 76, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--open .select2-dropdown {
+  left: 0;
+}
+
+/* line 79, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--open .select2-dropdown--above {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* line 84, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--open .select2-dropdown--below {
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* line 89, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-search--dropdown {
+  display: block;
+  padding: 4px;
+}
+
+/* line 92, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-search--dropdown .select2-search__field {
+  padding: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* line 96, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-search--dropdown .select2-search__field::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/* line 98, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-search--dropdown.select2-search--hide {
+  display: none;
+}
+
+/* line 101, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-close-mask {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-height: 100%;
+  min-width: 100%;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  z-index: 99;
+  background-color: #fff;
+  filter: alpha(opacity=0);
+}
+
+/* line 118, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-hidden-accessible {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
+/* line 130, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--single {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+/* line 134, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #444;
+  line-height: 28px;
+}
+
+/* line 137, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--single .select2-selection__clear {
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+}
+
+/* line 141, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+  color: #999;
+}
+
+/* line 143, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 26px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 20px;
+}
+
+/* line 149, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-color: #888 transparent transparent transparent;
+  border-style: solid;
+  border-width: 5px 4px 0 4px;
+  height: 0;
+  left: 50%;
+  margin-left: -4px;
+  margin-top: -2px;
+  position: absolute;
+  top: 50%;
+  width: 0;
+}
+
+/* line 161, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__clear {
+  float: left;
+}
+
+/* line 164, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+  left: 1px;
+  right: auto;
+}
+
+/* line 168, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default.select2-container--disabled .select2-selection--single {
+  background-color: #eee;
+  cursor: default;
+}
+
+/* line 171, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default.select2-container--disabled .select2-selection--single .select2-selection__clear {
+  display: none;
+}
+
+/* line 174, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-color: transparent transparent #888 transparent;
+  border-width: 0 4px 5px 4px;
+}
+
+/* line 178, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--multiple {
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: text;
+}
+
+/* line 183, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0 5px;
+  width: 100%;
+}
+
+/* line 189, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+  list-style: none;
+}
+
+/* line 191, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--multiple .select2-selection__placeholder {
+  color: #999;
+  margin-top: 5px;
+  float: left;
+}
+
+/* line 195, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--multiple .select2-selection__clear {
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+/* line 201, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: #e4e4e4;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: default;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 0 5px;
+}
+
+/* line 210, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  color: #999;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+/* line 216, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+  color: #333;
+}
+
+/* line 219, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice, .select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__placeholder, .select2-container--default[dir="rtl"] .select2-selection--multiple .select2-search--inline {
+  float: right;
+}
+
+/* line 222, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+/* line 226, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
+  margin-left: 2px;
+  margin-right: auto;
+}
+
+/* line 230, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+  border: solid black 1px;
+  outline: 0;
+}
+
+/* line 234, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default.select2-container--disabled .select2-selection--multiple {
+  background-color: #eee;
+  cursor: default;
+}
+
+/* line 238, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default.select2-container--disabled .select2-selection__choice__remove {
+  display: none;
+}
+
+/* line 241, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--single, .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* line 245, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--single, .select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* line 249, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border: 1px solid #aaa;
+}
+
+/* line 252, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-search--inline .select2-search__field {
+  background: transparent;
+  border: none;
+  outline: 0;
+  box-shadow: none;
+  -webkit-appearance: textfield;
+}
+
+/* line 259, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-results > .select2-results__options {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* line 263, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-results__option[role=group] {
+  padding: 0;
+}
+
+/* line 266, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-results__option[aria-disabled=true] {
+  color: #999;
+}
+
+/* line 269, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-results__option[aria-selected=true] {
+  background-color: #ddd;
+}
+
+/* line 272, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-results__option .select2-results__option {
+  padding-left: 1em;
+}
+
+/* line 274, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-results__option .select2-results__option .select2-results__group {
+  padding-left: 0;
+}
+
+/* line 276, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -1em;
+  padding-left: 2em;
+}
+
+/* line 279, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -2em;
+  padding-left: 3em;
+}
+
+/* line 282, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -3em;
+  padding-left: 4em;
+}
+
+/* line 285, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -4em;
+  padding-left: 5em;
+}
+
+/* line 288, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option {
+  margin-left: -5em;
+  padding-left: 6em;
+}
+
+/* line 292, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #5897fb;
+  color: white;
+}
+
+/* line 296, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--default .select2-results__group {
+  cursor: default;
+  display: block;
+  padding: 6px;
+}
+
+/* line 301, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--single {
+  background-color: #f7f7f7;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  outline: 0;
+  background-image: -webkit-linear-gradient(top, white 50%, #eeeeee 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, white), to(#eeeeee));
+  background-image: linear-gradient(to bottom, white 50%, #eeeeee 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFEEEEEE', GradientType=0);
+}
+
+/* line 311, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--single:focus {
+  border: 1px solid #5897fb;
+}
+
+/* line 313, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--single .select2-selection__rendered {
+  color: #444;
+  line-height: 28px;
+}
+
+/* line 316, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--single .select2-selection__clear {
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+/* line 321, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--single .select2-selection__placeholder {
+  color: #999;
+}
+
+/* line 323, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--single .select2-selection__arrow {
+  background-color: #ddd;
+  border: none;
+  border-left: 1px solid #aaa;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  height: 26px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 20px;
+  background-image: -webkit-linear-gradient(top, #eeeeee 50%, #cccccc 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #eeeeee), to(#cccccc));
+  background-image: linear-gradient(to bottom, #eeeeee 50%, #cccccc 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', endColorstr='#FFCCCCCC', GradientType=0);
+}
+
+/* line 339, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--single .select2-selection__arrow b {
+  border-color: #888 transparent transparent transparent;
+  border-style: solid;
+  border-width: 5px 4px 0 4px;
+  height: 0;
+  left: 50%;
+  margin-left: -4px;
+  margin-top: -2px;
+  position: absolute;
+  top: 50%;
+  width: 0;
+}
+
+/* line 351, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic[dir="rtl"] .select2-selection--single .select2-selection__clear {
+  float: left;
+}
+
+/* line 354, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic[dir="rtl"] .select2-selection--single .select2-selection__arrow {
+  border: none;
+  border-right: 1px solid #aaa;
+  border-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  left: 1px;
+  right: auto;
+}
+
+/* line 363, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic.select2-container--open .select2-selection--single {
+  border: 1px solid #5897fb;
+}
+
+/* line 365, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic.select2-container--open .select2-selection--single .select2-selection__arrow {
+  background: transparent;
+  border: none;
+}
+
+/* line 368, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-color: transparent transparent #888 transparent;
+  border-width: 0 4px 5px 4px;
+}
+
+/* line 372, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic.select2-container--open.select2-container--above .select2-selection--single {
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-image: -webkit-linear-gradient(top, white 0%, #eeeeee 50%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(50%, #eeeeee));
+  background-image: linear-gradient(to bottom, white 0%, #eeeeee 50%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFFFF', endColorstr='#FFEEEEEE', GradientType=0);
+}
+
+/* line 382, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic.select2-container--open.select2-container--below .select2-selection--single {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-image: -webkit-linear-gradient(top, #eeeeee 50%, white 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #eeeeee), to(white));
+  background-image: linear-gradient(to bottom, #eeeeee 50%, white 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFEEEEEE', endColorstr='#FFFFFFFF', GradientType=0);
+}
+
+/* line 392, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--multiple {
+  background-color: white;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: text;
+  outline: 0;
+}
+
+/* line 398, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--multiple:focus {
+  border: 1px solid #5897fb;
+}
+
+/* line 400, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--multiple .select2-selection__rendered {
+  list-style: none;
+  margin: 0;
+  padding: 0 5px;
+}
+
+/* line 404, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--multiple .select2-selection__clear {
+  display: none;
+}
+
+/* line 406, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--multiple .select2-selection__choice {
+  background-color: #e4e4e4;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: default;
+  float: left;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 0 5px;
+}
+
+/* line 415, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--multiple .select2-selection__choice__remove {
+  color: #888;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+/* line 421, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-selection--multiple .select2-selection__choice__remove:hover {
+  color: #555;
+}
+
+/* line 424, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic[dir="rtl"] .select2-selection--multiple .select2-selection__choice {
+  float: right;
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+/* line 429, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic[dir="rtl"] .select2-selection--multiple .select2-selection__choice__remove {
+  margin-left: 2px;
+  margin-right: auto;
+}
+
+/* line 433, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic.select2-container--open .select2-selection--multiple {
+  border: 1px solid #5897fb;
+}
+
+/* line 436, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic.select2-container--open.select2-container--above .select2-selection--multiple {
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* line 441, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic.select2-container--open.select2-container--below .select2-selection--multiple {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+/* line 446, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-search--dropdown .select2-search__field {
+  border: 1px solid #aaa;
+  outline: 0;
+}
+
+/* line 450, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-search--inline .select2-search__field {
+  outline: 0;
+  box-shadow: none;
+}
+
+/* line 454, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-dropdown {
+  background-color: white;
+  border: 1px solid transparent;
+}
+
+/* line 458, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-dropdown--above {
+  border-bottom: none;
+}
+
+/* line 461, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-dropdown--below {
+  border-top: none;
+}
+
+/* line 464, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-results > .select2-results__options {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* line 468, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-results__option[role=group] {
+  padding: 0;
+}
+
+/* line 471, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-results__option[aria-disabled=true] {
+  color: grey;
+}
+
+/* line 474, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-results__option--highlighted[aria-selected] {
+  background-color: #3875d7;
+  color: white;
+}
+
+/* line 478, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic .select2-results__group {
+  cursor: default;
+  display: block;
+  padding: 6px;
+}
+
+/* line 483, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-select.scss */
+.select2-container--classic.select2-container--open .select2-dropdown {
+  border-color: #5897fb;
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-subheader.sass */
+.admin-subheader {
+  background: var(--default);
+  -webkit-box-flex: 0;
+          flex: none;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+/* line 7, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-subheader.sass */
+.admin-subheader > div {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--black);
+}
+/* line 15, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-subheader.sass */
+.admin-subheader > div.filters {
+  font-size: var(--t5);
+  padding: 0.5rem 1rem;
+}
+/* line 22, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-subheader.sass */
+.admin-subheader .breadcrumbs a + a:before, .admin-subheader .breadcrumbs a:link + a:before, .admin-subheader .breadcrumbs a:visited + a:before {
+  content: " / ";
+}
+/* line 25, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-subheader.sass */
+.admin-subheader .page {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+}
+/* line 30, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-subheader.sass */
+.admin-subheader .page .current {
+  width: 5rem;
+}
+/* line 33, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-subheader.sass */
+.admin-subheader .page .pagination {
+  margin-right: 1rem;
+}
+/* line 35, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-subheader.sass */
+.admin-subheader .page .pagination a, .admin-subheader .page .pagination a:link, .admin-subheader .page .pagination a:visited {
+  display: inline-block;
+  border: 1px solid var(--black);
+  padding: 0 0.5rem;
+  text-align: center;
+  color: var(--black);
+}
+/* line 41, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-subheader.sass */
+.admin-subheader .page .pagination a:hover, .admin-subheader .page .pagination a:link:hover, .admin-subheader .page .pagination a:visited:hover {
+  background-color: var(--black);
+  color: var(--default);
+}
+/* line 45, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-subheader.sass */
+.admin-subheader .page .pagination a.-disabled, .admin-subheader .page .pagination a.-disabled:hover, .admin-subheader .page .pagination a:link.-disabled, .admin-subheader .page .pagination a:link.-disabled:hover, .admin-subheader .page .pagination a:visited.-disabled, .admin-subheader .page .pagination a:visited.-disabled:hover {
+  cursor: default;
+  background-color: var(--default);
+  border: 1px solid var(--grey);
+  color: var(--grey);
+}
+/* line 51, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-subheader.sass */
+.admin-subheader .page a + a {
+  margin-left: 0.5rem;
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-table.sass */
+.admin-table {
+  width: 100%;
+}
+/* line 3, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-table.sass */
+.admin-table tr:nth-child(odd) {
+  background-color: var(--faint);
+}
+/* line 6, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-table.sass */
+.admin-table td, .admin-table th {
+  padding: 0.5rem;
+}
+/* line 9, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-table.sass */
+.admin-table td {
+  font-size: var(--t5);
+}
+/* line 13, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-table.sass */
+.admin-table tr.-deleted td:first-of-type {
+  text-decoration: line-through;
+}
+/* line 16, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-table.sass */
+.admin-table tr.placeholder {
+  height: 1px;
+  overflow: hidden;
+  background-color: var(--red);
+  padding: 0;
+}
+/* line 22, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-table.sass */
+.admin-table tr.ui-sortable-helper {
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  box-shadow: 0 0.25rem 1rem rgba(7, 7, 7, 0.075);
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  font-weight: 600;
+}
+/* line 33, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-table.sass */
+.admin-table.-issue tbody tr:first-child td:first-child {
+  font-weight: 600;
+}
+
+/* line 1, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin/_admin-view.sass */
+.admin-view {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+          flex: 1;
+  padding: 1rem;
+}
+
+/* line 11, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin.sass */
+body {
+  border-top: 0;
+}
+
+/* line 14, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin.sass */
+.button, a.button, a.button:link, a.button:visited, input.button {
+  font-family: "Zirkon", sans-serif;
+  font-size: var(--t5);
+  -webkit-appearance: none;
+  background: var(--default);
+  color: var(--black);
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--black);
+  -webkit-transition: 0.125s ease all;
+  transition: 0.125s ease all;
+}
+/* line 23, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin.sass */
+.button:hover, a.button:hover, a.button:link:hover, a.button:visited:hover, input.button:hover {
+  cursor: pointer;
+  background: var(--yellow);
+  color: var(--black);
+}
+/* line 28, /Users/rahul.sharma1/Desktop/personal/RubySCA/app/assets/stylesheets/admin.sass */
+.button.-small, a.button.-small, a.button:link.-small, a.button:visited.-small, input.button.-small {
+  padding: 0 0.5rem;
+}
