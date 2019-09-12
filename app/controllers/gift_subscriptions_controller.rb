@@ -62,8 +62,14 @@ class GiftSubscriptionsController < ApplicationController
   def confirm
     begin
       if params['paymentIntentId'].present?
+
+        subscription = GiftSubscription.find_by_stripe_id(params['paymentIntentId'])
         intent = Stripe::PaymentIntent.confirm(params['paymentIntentId'])
-        return redirect_to %I[thanks gift_subscriptions] if intent.status == 'succeeded'
+        if intent.status == 'succeeded'
+          subscription.charged_at = Time.zone.now
+          subscription.save
+        end  
+        return redirect_to %I[thanks gift_subscriptions] 
       end
     rescue Stripe::CardError => e
       # Display error on client
