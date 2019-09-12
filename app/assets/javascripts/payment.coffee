@@ -9,9 +9,9 @@ setupStripePaymentForm = (form) ->
         return
       data: data
       success: (data, status) ->
-        if status == 'success'
-          window.location.href = "/subscriptions/thanks"
-
+        window.location.href = "/subscriptions/thanks"    
+      error: (data, status)->
+        window.location.href = "/failed_payment"
   registerElements = (elements, form) ->
     formButton = $(':submit', form)
     errorEl = $('.error:first', form)

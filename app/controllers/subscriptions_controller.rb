@@ -79,13 +79,20 @@ class SubscriptionsController < ApplicationController
         subscription = Subscription.find_by_stripe_id(subscription_id)
         subscription.status = "active"
         subscription.save
-        return redirect_to :thanks_subscriptions if intent.status == 'succeeded'
+        if intent.status == 'succeeded'
+          return redirect_to :thanks_subscriptions 
+        else 
+          return render :status => 400
+        end  
+      else
+        return render :status => 400
       end
     rescue Stripe::CardError => e
       # Display error on client
       flash[:alert] = e.message
+      return render :status => 400
     end
-    redirect_to :thanks_subscriptions
+    return redirect_to :thanks_subscriptions
   end
 
   def upgrade

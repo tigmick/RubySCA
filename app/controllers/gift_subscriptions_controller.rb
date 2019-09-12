@@ -68,12 +68,18 @@ class GiftSubscriptionsController < ApplicationController
         if intent.status == 'succeeded'
           subscription.charged_at = Time.zone.now
           subscription.save
+          return redirect_to %I[thanks gift_subscriptions]
+        else
+          return render :status => 400
         end  
-        return redirect_to %I[thanks gift_subscriptions] 
+         
+      else
+        return render :status => 400 
       end
     rescue Stripe::CardError => e
       # Display error on client
       flash[:alert] = e.message
+      return render :status => 400
     end
     redirect_to %I[thanks gift_subscriptions]
   end
