@@ -64,6 +64,8 @@ setupStripePaymentForm = (form) ->
                     confirmPayment paymentIntentId: data.payment_intent_client_id
               else if data.status == 'succeeded'
                 window.location.href = "/subscriptions/thanks"
+              else
+                window.location.href = "/failed_payment"  
           return false
           form.addClass( 'submitted' )
         else

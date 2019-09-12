@@ -63,6 +63,8 @@ setupStripePaymentMethodForm = (form) ->
                     confirmPayment paymentIntentId: data.payment_intent_client_id
               else if data.status == 'succeeded'
                 window.location.href = "/gifts/thanks"
+              else
+                window.location.href = "/501"
           return false
           form.addClass( 'submitted' )
         else
