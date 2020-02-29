@@ -264,7 +264,7 @@ GEM
     pretender (0.3.4)
       actionpack (>= 4.2)
     public_suffix (3.1.1)
-    puma (3.12.1)
+    puma (3.12.3)
     puma_worker_killer (0.1.1)
       get_process_mem (~> 0.2)
       puma (>= 2.7, < 5)
@@ -450,7 +450,7 @@ DEPENDENCIES
   plyr-rails
   postmark-rails
   pretender
-  puma (~> 3.11)
+  puma (~> 3.12)
   puma_worker_killer
   rack-mini-profiler
   rails (~> 5.2.3)
