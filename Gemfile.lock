@@ -193,7 +193,8 @@ GEM
       activerecord
       kaminari-core (= 1.1.1)
     kaminari-core (1.1.1)
-    kramdown (2.1.0)
+    kramdown (2.3.0)
+      rexml
     launchy (2.4.3)
       addressable (~> 2.3)
     letter_opener (1.7.0)
@@ -308,6 +309,7 @@ GEM
     regexp_parser (1.6.0)
     reverse_markdown (1.2.0)
       nokogiri
+    rexml (3.2.4)
     rinku (2.0.6)
     roo (2.8.2)
       nokogiri (~> 1)
