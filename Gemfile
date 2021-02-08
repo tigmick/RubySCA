@@ -21,7 +21,7 @@ gem 'sitemap_generator'
 gem 'mini_racer', platforms: :ruby
 gem 'redis', '~> 4.0'
 gem "nokogiri", ">= 1.10.4"
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem "mini_magick", ">= 4.9.4"
 gem 'sentry-raven'
 gem 'sanitize'
